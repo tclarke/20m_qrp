@@ -3,7 +3,7 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                   AC Analysis Optimizer of audio_stage                   ***
-***                          2/27/2022 12:17:20 PM                           ***
+***                           2/27/2022 5:17:33 PM                           ***
 ********************************************************************************
 
 Find:
@@ -40,4 +40,4 @@ Final Result:
    Result:   DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.277n DEC C2=30.03n DEC R5=3.4K DEC R6=102K DEC C3=427.7n DEC R8=100 Function=-1.148154K
 
 Info:
-   Time=11.594 sec
+   Time=11.468 sec

@@ -1,4 +1,4 @@
-AC Worst Case 2/27/2022 12:17:20 PM
+AC Worst Case 2/27/2022 5:17:33 PM
 
 Bias Tolerance Library = C:\mc12cd\library\Standard.tlib
 Temperature = 27
@@ -114,4 +114,4 @@ By Extreme Value Low         +954.993
 By Extreme Value High          +1.161K
 
 
-Run time=45.094(Secs)
+Run time=45.453(Secs)
