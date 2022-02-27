@@ -1,0 +1,43 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                   AC Analysis Optimizer of audio_stage                   ***
+***                          2/27/2022 12:17:20 PM                           ***
+********************************************************************************
+
+Find:
+   DEC R1 Low=5058.8999999999996 High=5161.1000000000004 
+   DEC R2 Low=6276.6000000000004 High=6403.3999999999996 
+   DEC R3 Low=57024 High=58176 
+   DEC C1 Low=4.2300000000000005e-009 High=5.170000000000001e-009 
+   DEC C2 Low=2.9700000000000005e-008 High=3.6300000000000007e-008 
+   DEC R5 Low=3366 High=3434 
+   DEC R6 Low=100980 High=103020 
+   DEC C3 Low=4.2299999999999996e-007 High=5.1699999999999998e-007 
+   DEC R8 Low=99 High=101 
+
+That:
+   Maximizes High_X(dB(v(Rload)/V(1)),1)
+
+Objective Function = -(High_X(dB(v(Rload)/V(1)),1))
+
+Minimizing the Objective Function
+
+Start With:
+   Existing
+
+Hooke:
+   Start with:DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.7n DEC C2=33n DEC R5=3.4K DEC R6=102K DEC C3=470n DEC R8=100 
+   Best: DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.277n DEC C2=30.03n DEC R5=3.4K DEC R6=102K DEC C3=427.7n DEC R8=100 Function=-1.148154K
+
+Best so far Hooke: DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.277n DEC C2=30.03n DEC R5=3.4K DEC R6=102K DEC C3=427.7n DEC R8=100 Function=-1.148154K
+
+
+Final Result:
+   Hooke
+   Start:   DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.7n DEC C2=33n DEC R5=3.4K DEC R6=102K DEC C3=470n DEC R8=100 
+   Result:   DEC R1=5.11K DEC R2=6.34K DEC R3=57.6K DEC C1=4.277n DEC C2=30.03n DEC R5=3.4K DEC R6=102K DEC C3=427.7n DEC R8=100 Function=-1.148154K
+
+Info:
+   Time=11.594 sec

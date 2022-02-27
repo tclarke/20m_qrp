@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=12.2.0.3
 Key ID=Demo
-NLCnt=58
+NLCnt=54
 TXCnt=11
 
 [shapedef]
@@ -32,20 +32,6 @@ Line=0,0,12,0
 Line=12,-8,12,8
 Line=18,-4,18,4
 Line=24,0,24,0
-
-[shapedef]
-Name=LoopGain
-Line=0,0,48,0
-PolyClosed=3
-PolyLine=13,-3
-PolyLine=13,3
-PolyLine=16,0
-PolyClosed=3
-PolyLine=32,-3
-PolyLine=32,3
-PolyLine=35,0
-Line=30,-6,18,6
-Line=18,-6,30,6
 
 [shapedef]
 Name=Minus.root
@@ -125,7 +111,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=1793
-Used=295
+Used=296
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -182,18 +168,6 @@ Pin="Vcc",a,4,-1,6,15
 Pin="Vee",a,4,7,6,0
 Pin="Out",a,9,3,-3,-3
 
-[compdef]
-Name=Loop Gain Probe
-Definition=Loop Gain Probe
-Shape=LoopGain
-Mask=4096
-Used=3
-memo=This probe is used to designate the point to break the loop for a Stability analysis
-Label Offset=12,8,10,9
-PinCnt=2
-Pin="Plus",0,0,-11,-1
-Pin="Minus",6,0,-8,-1
-
 [Circuit]
 Window Placement=2,3, 0,753, -8,-31, 1120,-2,1895,775
 Default Object=Color=#000080
@@ -208,7 +182,7 @@ PathDelayFormat=3
 WarningFormat=3
 GridTextFormulaFormat=3
 Window Placement in Transient Analysis=1,2, 0,753, -8,-31, 104,104,1755,625
-Window Placement in AC Analysis=0,1, -1,-1, -8,-31, 0,0,953,777
+Window Placement in AC Analysis=1,2, 0,753, -8,-31, 0,0,953,777
 Window Placement in HmDistortion Analysis=1,2, 0,749, -8,-31, 0,0,1293,536
 Window Placement in Stability Analysis=1,2, 0,753, -8,-31, 0,0,1293,536
 SpiceType=AMBIGUOUS
@@ -438,7 +412,7 @@ Pxs=432,232,448,232
 Pxs=432,136,432,232
 
 [Wire]
-Pxs=432,136,464,136
+Pxs=432,136,528,136
 
 [Wire]
 Pxs=536,184,536,232
@@ -550,7 +524,7 @@ Pxs=720,200,736,200
 Pxs=720,256,728,256
 
 [Wire]
-Pxs=784,200,792,200
+Pxs=784,200,840,200
 
 [Wire]
 Pxs=840,200,840,280
@@ -666,40 +640,6 @@ Style=8192
 [Attr]
 ON=0,0,PACKAGE
 V
-
-[Comp]
-Name=Loop Gain Probe
-Px=512,136
-Rot=2
-
-[Attr]
-ON=-45,12,PART
-V=Probe1
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=512,136,528,136
-
-[Comp]
-Name=Loop Gain Probe
-Px=840,200
-Rot=2
-
-[Attr]
-ON=-17,-21,PART
-V=Probe2
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=792,200,800,200
 
 [Wire]
 Pxs=896,280,904,280
@@ -1000,9 +940,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=105,0
-Scale 3=0.66666666666666663
-Px=1148,110
+SB 3=471,42
+Scale 3=0.54371584699453557
+Px=755,205
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1393,7 +1333,7 @@ Name="MAIN"
 
 [AC]
 WinID=2
-Window Placement=1,1, -1,-1, -8,-31, 953,0,1906,777
+Window Placement=3,3, -1,-1, -8,-31, 953,0,1906,777
 Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
@@ -1619,10 +1559,38 @@ EndPoint=ArrowF
 CBorder=#000080
 w=0
 AliasID1=1
-Pos=1047.1285480509439,44.709274587598102,551.9954321281574,25.381818181818172
+Pos=1059.2537251773338,15.096455681089607,425.71688832610147,-8.8599348534201887
 Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
 Format=3
 FormatY=3
+
+[AObject]
+Analysis=AC
+Object=Tag
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=1
+Pos=1059.2537251773338,44.819033990236854,358.8765282703273,39.022801302931597
+Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Format=3
+FormatY=3
+
+[AObject]
+Analysis=AC
+Object=MeasureV
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=1
+w2=0
+AliasID2=1
+Pos=1047.1285480509439,15.106468977787541,1000.0000000000421,44.761670857216835
+Posm=1078.8648231414418
+Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Format=3
 
 [AObject]
 Analysis=AC
@@ -1637,34 +1605,6 @@ AliasID2=2
 Pos=298.53826189180637,-102.40294864076746,2818.3829312645876,-235.38620013961804
 Posm=6.5217391304347823
 Font=Height=-15,FStyle=0,Color=#FF00FF,Name=Arial
-Format=3
-
-[AObject]
-Analysis=AC
-Object=Tag
-Locked=True
-EndPoint=ArrowF
-CBorder=#000080
-w=0
-AliasID1=1
-Pos=1000.0000000000421,19.882417349168641,618.31358884175927,-6.2475570032573264
-Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
-Format=3
-FormatY=3
-
-[AObject]
-Analysis=AC
-Object=MeasureH
-Locked=True
-EndPoint=ArrowF
-CBorder=#000080
-w=0
-AliasID1=1
-w2=0
-AliasID2=1
-Pos=291.7427014001268,-16.685540891627436,3090.2954325137393,-15.685878575557746
-Posm=55.342019543973947
-Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
 Format=3
 
 [HmDistortion]
@@ -2184,132 +2124,6 @@ Eliminate Outliers=False
 Distribution=Normal
 Number of Runs=10
 Seed=0
-
-[Monte Carlo]
-Analysis=AC
-WinID=8
-Window Placement=2,3, -1,-1, -8,-31, 234,234,1885,755
-Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
-WinBackGround Color=#C0C0C0
-Select Color=#FF0000
-Anchor Color=#000000
-Select Box Color=#000080
-Title=Peak_Y(dB(v(Rload)/V(1)),1,1)
-AutoTitle=Yes
-ShowWin=False
-BackGroundColor=#FFFFFF
-Grid Color=#808080
-Fore Color=#FFFFFF
-Shadow Color=#C0C0C0
-AutoX=True
-BarCountX="11"
-AutoY=True
-FormulaFormat=3
-Format=3
-ShowValues=True
-ShowHits=False
-Tracker Mouse=False
-PMExpression=Peak_Y(dB(v(Rload)/V(1)),1,1)
-
-[Tools]
-Pos=Top
-SELECT=Yes
-GRAPHIC=Yes
-LINE=No
-ELLIPSE=No
-RECT=No
-DIAM=No
-ARC=No
-PIE=No
-TRIANGLE=No
-STAR=No
-LEFTBRK=No
-RIGHTBRK=No
-BOTHBRK=No
-META=Yes
-PARALLELOGRAM=No
-POLYCLOS=No
-POLYOPEN=No
-TEXT=Yes
-PROPERTY=Yes
-COLOR=Yes
-FONT=Yes
-STYLE=Yes
-MCSTATIS=Yes
-SELNEXT=Yes
-TOFRONT=Yes
-TOBACK=Yes
-TOGGLEMODE=No
-REMOVEALLTEXT=No
-ALIGNLEFT=Yes
-ALIGNCENTER=Yes
-ALIGNRIGHT=Yes
-ALIGNTOP=Yes
-ALIGNMIDDLES=Yes
-ALIGNBOTTOM=Yes
-
-[Monte Carlo]
-Analysis=AC
-WinID=9
-Window Placement=2,3, -1,-1, -8,-31, 156,156,1807,677
-Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
-WinBackGround Color=#C0C0C0
-Select Color=#FF0000
-Anchor Color=#000000
-Select Box Color=#000080
-Title=Peak_Y(dB(v(Rload)/V(1)),1,1)
-AutoTitle=Yes
-ShowWin=False
-BackGroundColor=#FFFFFF
-Grid Color=#808080
-Fore Color=#FFFFFF
-Shadow Color=#C0C0C0
-AutoX=True
-BarCountX="11"
-AutoY=True
-FormulaFormat=3
-Format=3
-ShowValues=True
-ShowHits=False
-Tracker Mouse=False
-PMExpression=Peak_Y(dB(v(Rload)/V(1)),1,1)
-
-[Tools]
-Pos=Top
-SELECT=Yes
-GRAPHIC=Yes
-LINE=No
-ELLIPSE=No
-RECT=No
-DIAM=No
-ARC=No
-PIE=No
-TRIANGLE=No
-STAR=No
-LEFTBRK=No
-RIGHTBRK=No
-BOTHBRK=No
-META=Yes
-PARALLELOGRAM=No
-POLYCLOS=No
-POLYOPEN=No
-TEXT=Yes
-PROPERTY=Yes
-COLOR=Yes
-FONT=Yes
-STYLE=Yes
-MCSTATIS=Yes
-SELNEXT=Yes
-TOFRONT=Yes
-TOBACK=Yes
-TOGGLEMODE=No
-REMOVEALLTEXT=No
-ALIGNLEFT=Yes
-ALIGNCENTER=Yes
-ALIGNRIGHT=Yes
-ALIGNTOP=Yes
-ALIGNMIDDLES=Yes
-ALIGNBOTTOM=Yes
 
 [Performance]
 Analysis=HmDistortion
@@ -3632,7 +3446,7 @@ YRng=60,-80
 Options=LINEARY
 Range Grid X=19999.8
 Range Grid Y=20
-Enable=Enable
+Enable=Hide
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
@@ -3658,7 +3472,7 @@ YRng=360,-360
 Options=LINEARY
 Range Grid X=19999.8
 Range Grid Y=90
-Enable=Enable
+Enable=Hide
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
@@ -3974,6 +3788,18 @@ Analysis=ImDistortion
 [Pane]
 Analysis=Stability
 CurrentPage 0="OPEN"
+
+[Stepping]
+Analysis=AC
+Index=1
+Status=On
+Method=Log
+Parameter Type=Component
+Name=R6
+Param=value
+From=3.4k
+To=103.4k
+Value=2
 
 [Optimize]
 Analysis=AC

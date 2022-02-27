@@ -1,0 +1,117 @@
+AC Worst Case 2/27/2022 12:17:20 PM
+
+Bias Tolerance Library = C:\mc12cd\library\Standard.tlib
+Temperature = 27
+
+Number of Input Variables = 9
+Number of Output Variables = 2
+
+Output Function = High_Y(dB(v(Rload)/V(1)),1)
+Nominal value = 44.709 
+
+RSS Table
+Variable    Nominal     Initial        Drift        Total RSS Tolerances   RSS Parameter Values      RSS Variance Values             Sensitivity       
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High           Low          High         Ratio     %/% Ratio
+C3.value   470.000n     LOT=10%     0     0     0      10.00       10.00   423.000n    517.000n   -3.838E-001    3.107E-001    7.192E+006    7.561E-002
+R6.value   102.000K      LOT=1%     0     0     0       1.00        1.00   100.980K    103.020K   -8.791E-002    8.704E-002    8.534E-005    1.947E-001
+R3.value    57.600K      LOT=1%     0     0     0       1.00        1.00    57.024K     58.176K   -6.800E-002    6.902E-002    1.198E-004    1.544E-001
+R2.value     6.340K      LOT=1%     0     0     0       1.00        1.00     6.277K      6.403K    8.012E-003   -7.245E-003   -1.143E-004   -1.621E-002
+R8.value   100.000       LOT=1%     0     0     0       1.00        1.00    99.000     101.000     1.334E-002   -1.333E-002   -1.333E-002   -2.981E-002
+C2.value    33.000n     LOT=10%     0     0     0      10.00       10.00    29.700n     36.300n    5.450E-002   -6.487E-002   -1.633E+007   -1.205E-002
+R5.value     3.400K      LOT=1%     0     0     0       1.00        1.00     3.366K      3.434K    8.790E-002   -8.702E-002   -2.559E-003   -1.946E-001
+R1.value     5.110K      LOT=1%     0     0     0       1.00        1.00     5.059K      5.161K    9.719E-002   -9.528E-002   -1.865E-003   -2.131E-001
+C1.value     4.700n     LOT=10%     0     0     0      10.00       10.00     4.230n      5.170n    2.926E-001   -2.832E-001   -5.925E+008   -6.229E-002
+
+Optimized EVA Table
+Variable    Nominal     Initial        Drift        Total EVA Tolerances   EVA Parameter Values          Sensitivity       
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High         Ratio     %/% Ratio
+C3.value   470.000n     LOT=10%     0     0     0      10.00       10.00   423.000n    517.000n    7.192E+006    7.561E-002
+R6.value   102.000K      LOT=1%     0     0     0       1.00        1.00   100.980K    103.020K    8.534E-005    1.947E-001
+R3.value    57.600K      LOT=1%     0     0     0       1.00        1.00    57.024K     58.176K    1.198E-004    1.544E-001
+R2.value     6.340K      LOT=1%     0     0     0       1.00        1.00     6.403K      6.277K   -1.143E-004   -1.621E-002
+R8.value   100.000       LOT=1%     0     0     0       1.00        1.00   101.000      99.000    -1.333E-002   -2.981E-002
+C2.value    33.000n     LOT=10%     0     0     0      10.00       10.00    36.300n     29.700n   -1.633E+007   -1.205E-002
+R5.value     3.400K      LOT=1%     0     0     0       1.00        1.00     3.434K      3.366K   -2.559E-003   -1.946E-001
+R1.value     5.110K      LOT=1%     0     0     0       1.00        1.00     5.161K      5.059K   -1.865E-003   -2.131E-001
+C1.value     4.700n     LOT=10%     0     0     0      10.00       10.00     5.170n      4.230n   -5.925E+008   -6.229E-002
+
+Worst case change of High_Y(dB(v(Rload)/V(1)),1) relative to the nominal value of 44.709 
+By Root Sum Squared Low      -515.420m
+By Root Sum Squared High     +458.462m
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low           -1.133 
+By Extreme Value High        +980.368m
+
+Worst case percent change of High_Y(dB(v(Rload)/V(1)),1) relative to the nominal value of 44.709 
+By Root Sum Squared Low      -1.15%
+By Root Sum Squared High     +1.03%
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low         -2.53%
+By Extreme Value High        +2.19%
+
+Worst case value of High_Y(dB(v(Rload)/V(1)),1)
+By Root Sum Squared Low      +44.194 
+By Root Sum Squared High     +45.168 
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low         +43.577 
+By Extreme Value High        +45.690 
+
+
+Output Function = High_X(dB(v(Rload)/V(1)),1)
+Nominal value = 1.047K
+
+RSS Table
+Variable    Nominal     Initial        Drift        Total RSS Tolerances   RSS Parameter Values      RSS Variance Values             Sensitivity       
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High           Low          High         Ratio     %/% Ratio
+C3.value   470.000n     LOT=10%     0     0     0      10.00       10.00   423.000n    517.000n    0.000E+000   -1.199E+001    0.000E+000    0.000E+000
+R1.value     5.110K      LOT=1%     0     0     0       1.00        1.00     5.059K      5.161K    0.000E+000   -1.199E+001   -2.346E-001   -1.145E+000
+R2.value     6.340K      LOT=1%     0     0     0       1.00        1.00     6.277K      6.403K    0.000E+000   -1.199E+001   -1.891E-001   -1.145E+000
+R3.value    57.600K      LOT=1%     0     0     0       1.00        1.00    57.024K     58.176K    0.000E+000   -1.199E+001   -2.081E-002   -1.145E+000
+R5.value     3.400K      LOT=1%     0     0     0       1.00        1.00     3.366K      3.434K    0.000E+000    0.000E+000    0.000E+000    0.000E+000
+R6.value   102.000K      LOT=1%     0     0     0       1.00        1.00   100.980K    103.020K    0.000E+000    0.000E+000    0.000E+000    0.000E+000
+R8.value   100.000       LOT=1%     0     0     0       1.00        1.00    99.000     101.000     0.000E+000    0.000E+000    0.000E+000    0.000E+000
+C1.value     4.700n     LOT=10%     0     0     0      10.00       10.00     4.230n      5.170n    4.935E+001   -5.858E+001   -2.550E+011   -1.145E+000
+C2.value    33.000n     LOT=10%     0     0     0      10.00       10.00    29.700n     36.300n    4.935E+001   -4.713E+001   -3.632E+010   -1.145E+000
+
+Optimized EVA Table
+Variable    Nominal     Initial        Drift        Total EVA Tolerances   EVA Parameter Values          Sensitivity       
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High         Ratio     %/% Ratio
+C3.value   470.000n     LOT=10%     0     0     0      10.00       10.00   423.000n    517.000n    0.000E+000    0.000E+000
+R1.value     5.110K      LOT=1%     0     0     0       1.00        1.00     5.161K      5.059K   -2.346E-001   -1.145E+000
+R2.value     6.340K      LOT=1%     0     0     0       1.00        1.00     6.403K      6.277K   -1.891E-001   -1.145E+000
+R3.value    57.600K      LOT=1%     0     0     0       1.00        1.00    58.176K     57.024K   -2.081E-002   -1.145E+000
+R5.value     3.400K      LOT=1%     0     0     0       1.00        1.00     3.366K      3.434K    0.000E+000    0.000E+000
+R6.value   102.000K      LOT=1%     0     0     0       1.00        1.00   100.980K    103.020K    0.000E+000    0.000E+000
+R8.value   100.000       LOT=1%     0     0     0       1.00        1.00    99.000     101.000     0.000E+000    0.000E+000
+C1.value     4.700n     LOT=10%     0     0     0      10.00       10.00     5.170n      4.230n   -2.550E+011   -1.145E+000
+C2.value    33.000n     LOT=10%     0     0     0      10.00       10.00    36.300n     29.700n   -3.632E+010   -1.145E+000
+
+Worst case change of High_X(dB(v(Rload)/V(1)),1) relative to the nominal value of 1.047K
+By Root Sum Squared Low       -69.791 
+By Root Sum Squared High      +78.911 
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low          -92.136 
+By Extreme Value High        +114.320 
+
+Worst case percent change of High_X(dB(v(Rload)/V(1)),1) relative to the nominal value of 1.047K
+By Root Sum Squared Low       -6.66%
+By Root Sum Squared High      +7.54%
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low          -8.80%
+By Extreme Value High        +10.92%
+
+Worst case value of High_X(dB(v(Rload)/V(1)),1)
+By Root Sum Squared Low      +977.338 
+By Root Sum Squared High       +1.126K
+By Monte Carlo Analysis Low  Histogram has no data
+By Monte Carlo Analysis High Histogram has no data
+By Extreme Value Low         +954.993 
+By Extreme Value High          +1.161K
+
+
+Run time=45.094(Secs)

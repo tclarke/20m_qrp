@@ -1,0 +1,2107 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                        Dynamic AC of audio_stage                         ***
+***                           2/27/2022 4:22:49 PM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=100000 (dB, Degrees)
+=============================================
+Node                             Voltage 
+1                                -22.975 
+2                        -66.384,23.754° 
+3                         -46.258,84.87° 
+4                         -66.32,23.568° 
+5                        -66.384,23.754° 
+VC                                   -1K 
+VE                                   -1K 
+8                      -27.021,-159.191° 
+9                       -47.427,108.408° 
+10                     -24.522,-159.678° 
+11                     -24.523,-159.191° 
+12                     -24.522,-159.678° 
+13                     -24.523,-159.159° 
+X3.25                  -220.814,113.568° 
+X3.XE_N.2              -220.814,113.568° 
+X3.XIN11.1                -66.32,23.568° 
+X3.XVCM_CLAMP.IOUT+    -374.495,121.968° 
+X3.XGR_AMP.VC+         -374.495,121.968° 
+X3.XGR_AMP.VC-         -374.495,121.968° 
+X3.XCL_AMP.VC+         -374.495,121.968° 
+X3.XCL_AMP.VC-         -374.495,121.968° 
+X3.34                   -32.852,111.299° 
+X3.VCLP                 -32.852,111.299° 
+X3.55                   -32.852,111.299° 
+X3.33                   -32.852,111.299° 
+X3.32                   -32.852,111.299° 
+X3.54                   -32.852,111.299° 
+X3.31                   -32.852,111.299° 
+X3.43                     -46.258,84.87° 
+X3.XVCM_CLAMP.VP-       -252.176,31.966° 
+X3.XCLAWN.IOUT+         -252.176,31.966° 
+X3.XVCM_CLAMP.VP+     -251.768,-148.034° 
+X3.XCLAWP.IOUT-       -251.768,-148.034° 
+X3.22                     4.371,124.121° 
+X3.23                     4.372,124.336° 
+X3.24                     4.372,124.064° 
+X3.21                     4.372,124.121° 
+X3.XE_N.1              -220.814,113.568° 
+X3.XOL_SENSE.OLP      -300.887,-158.132° 
+X3.28                 -300.887,-158.129° 
+X3.XOL_SENSE.OLN        -300.887,21.891° 
+X3.30                   -300.887,21.895° 
+X3.XVCCS_LIM_ZO.IOUT-      4.368,124.35° 
+X3.XVCCS_LIM_ZO.VC+      -67.673,124.35° 
+X3.37                   -32.852,111.659° 
+X3.XGR_SRC.IOUT+        -32.847,113.569° 
+X3.XVCCS_LIM_1.IOUT-    -26.32,-156.432° 
+X3.XVCCS_LIM_1.VC+     -220.787,114.378° 
+X3.XVCCS_LIM_1.VC-        -66.32,23.568° 
+X3.42                    -2.588,118.445° 
+X3.41                   -14.217,124.336° 
+X3.44                   -293.04,121.536° 
+X3.45                   -247.023,31.822° 
+X3.46                  -292.633,-58.464° 
+X3.47                 -246.614,-148.177° 
+X3.48                 -257.482,-170.476° 
+X3.49                  -245.175,113.562° 
+X3.XCLAWN.VC-           -33.896,121.964° 
+X3.XCL_AMP.VO+         -353.121,121.964° 
+X3.XCL_AMP.VO-         -353.121,121.964° 
+X3.XGR_AMP.VIN          -32.847,113.569° 
+X3.XGR_AMP.VO+         -352.163,114.208° 
+X3.XGR_AMP.VO-         -352.163,114.208° 
+X3.VSENSE               -32.847,113.569° 
+X3.XGR_SRC.VC+         -352.163,114.208° 
+X3.XGR_SRC.VC-         -352.163,114.208° 
+X3.XCL_SRC.VC+         -353.121,121.964° 
+X3.XCL_SRC.VC-         -353.121,121.964° 
+X3.XCL_SRC.IOUT+        -32.852,111.659° 
+X3.XCLAWP.IOUT+         -67.731,-58.036° 
+X3.XCLAWN.IOUT-          -68.14,121.964° 
+X3.67                   -67.731,-58.036° 
+X3.68                    -68.14,121.964° 
+X3.XCLAW_AMP.VC+        -67.731,-58.036° 
+X3.XCLAW_AMP.VC-         -68.14,121.964° 
+X3.XCLAW_AMP.VIN         -46.275,81.275° 
+X3.XCLAW_AMP.VO+        -364.365,90.416° 
+X3.XCLAW_AMP.VO-        -363.418,93.983° 
+X3.XCLAW_SRC.VC+        -364.365,90.416° 
+X3.XCLAW_SRC.VC-        -363.418,93.983° 
+X3.XCLAW_SRC.IOUT+      -32.852,111.659° 
+X3.SW_OL               -374.495,121.968° 
+X3.XOL_SENSE.SW+       -374.495,121.968° 
+X3.74                   -33.879,125.559° 
+X3.75                     -46.258,84.87° 
+X3.76                   -32.852,111.659° 
+X3.XVCM_CLAMP.IOUT-    -220.787,114.378° 
+X3.XVCM_CLAMP.VIN+     -220.787,114.378° 
+X3.82                   -252.176,31.966° 
+X3.81                  -374.495,121.968° 
+X3.83                 -251.768,-148.034° 
+X3.84                  -220.783,114.381° 
+X3.85                  -220.783,114.381° 
+X4.25                 -201.921,-161.592° 
+X4.XE_N.2             -201.921,-161.592° 
+X4.XIN11.1              -47.427,108.408° 
+X4.XVCM_CLAMP.IOUT+   -357.112,-162.768° 
+X4.XGR_AMP.VC+        -357.112,-162.768° 
+X4.XGR_AMP.VC-        -357.112,-162.768° 
+X4.XCL_AMP.VC+        -357.112,-162.768° 
+X4.XCL_AMP.VC-        -357.112,-162.768° 
+X4.34                   -13.959,-163.86° 
+X4.VCLP                 -13.959,-163.86° 
+X4.55                   -13.959,-163.86° 
+X4.33                   -13.959,-163.86° 
+X4.32                   -13.959,-163.86° 
+X4.54                   -13.959,-163.86° 
+X4.31                   -13.959,-163.86° 
+X4.43                  -24.522,-159.678° 
+X4.XVCM_CLAMP.VP-       -234.793,107.23° 
+X4.XCLAWN.IOUT+         -234.793,107.23° 
+X4.XVCM_CLAMP.VP+       -234.385,-72.77° 
+X4.XCLAWP.IOUT-         -234.385,-72.77° 
+X4.22                   21.999,-159.432° 
+X4.23                       22,-159.217° 
+X4.24                       22,-159.489° 
+X4.21                       22,-159.432° 
+X4.XE_N.1             -201.921,-161.592° 
+X4.XOL_SENSE.OLP       -281.998,-73.367° 
+X4.28                  -281.998,-73.364° 
+X4.XOL_SENSE.OLN       -281.998,106.653° 
+X4.30                  -281.998,106.657° 
+X4.XVCCS_LIM_ZO.IOUT-   21.997,-159.203° 
+X4.XVCCS_LIM_ZO.VC+    -50.044,-159.203° 
+X4.37                    -13.959,-163.5° 
+X4.XGR_SRC.IOUT+       -13.954,-161.591° 
+X4.XVCCS_LIM_1.IOUT-     -7.427,-71.592° 
+X4.XVCCS_LIM_1.VC+    -201.893,-160.778° 
+X4.XVCCS_LIM_1.VC-      -47.427,108.408° 
+X4.42                    15.04,-165.108° 
+X4.41                    3.412,-159.217° 
+X4.44                   -275.657,-163.2° 
+X4.45                  -229.639,107.087° 
+X4.46                      -275.25,16.8° 
+X4.47                  -229.231,-72.913° 
+X4.48                  -238.588,-85.636° 
+X4.49                 -226.282,-161.598° 
+X4.XCLAWN.VC-          -16.512,-162.772° 
+X4.XCL_AMP.VO+        -335.737,-162.772° 
+X4.XCL_AMP.VO-        -335.737,-162.772° 
+X4.XGR_AMP.VIN         -13.954,-161.591° 
+X4.XGR_AMP.VO+         -333.37,-161.668° 
+X4.XGR_AMP.VO-         -333.37,-161.668° 
+X4.VSENSE              -13.954,-161.591° 
+X4.XGR_SRC.VC+         -333.37,-161.668° 
+X4.XGR_SRC.VC-         -333.37,-161.668° 
+X4.XCL_SRC.VC+        -335.737,-162.772° 
+X4.XCL_SRC.VC-        -335.737,-162.772° 
+X4.XCL_SRC.IOUT+         -13.959,-163.5° 
+X4.XCLAWP.IOUT+          -50.348,17.228° 
+X4.XCLAWN.IOUT-        -50.756,-162.772° 
+X4.67                    -50.348,17.228° 
+X4.68                  -50.756,-162.772° 
+X4.XCLAW_AMP.VC+         -50.348,17.228° 
+X4.XCLAW_AMP.VC-       -50.756,-162.772° 
+X4.XCLAW_AMP.VIN       -24.539,-163.273° 
+X4.XCLAW_AMP.VO+      -343.073,-163.194° 
+X4.XCLAW_AMP.VO-      -342.368,-163.162° 
+X4.XCLAW_SRC.VC+      -343.073,-163.194° 
+X4.XCLAW_SRC.VC-      -342.368,-163.162° 
+X4.XCLAW_SRC.IOUT+       -13.959,-163.5° 
+X4.SW_OL              -357.112,-162.768° 
+X4.XOL_SENSE.SW+      -357.112,-162.768° 
+X4.74                  -16.495,-159.177° 
+X4.75                  -24.522,-159.678° 
+X4.76                    -13.959,-163.5° 
+X4.XVCM_CLAMP.IOUT-   -201.893,-160.778° 
+X4.XVCM_CLAMP.VIN+    -201.893,-160.778° 
+X4.82                   -234.793,107.23° 
+X4.81                 -357.112,-162.768° 
+X4.83                   -234.385,-72.77° 
+X4.84                 -201.889,-160.779° 
+X4.85                 -201.889,-160.779° 
+X3.XIN11.7                           -1K 
+X3.XIN11.8                           -1K 
+X3.XIN11.3                           -1K 
+X3.XIN11.6                           -1K 
+X3.XIN11.4                           -1K 
+X3.XIN11.5                           -1K 
+X3.XI_N.7                            -1K 
+X3.XI_N.8                            -1K 
+X3.XI_N.3                            -1K 
+X3.XI_N.6                            -1K 
+X3.XI_N.4                            -1K 
+X3.XI_N.5                            -1K 
+X3.XE_N.7                            -1K 
+X3.XE_N.8                            -1K 
+X3.XE_N.3                            -1K 
+X3.XE_N.6                            -1K 
+X3.XE_N.4                            -1K 
+X3.XE_N.5                            -1K 
+X3.XCLAWP.G1_NFV        -33.896,121.964° 
+X3.XCLAWN.G1_NFV        -33.896,121.964° 
+X4.XIN11.7                           -1K 
+X4.XIN11.8                           -1K 
+X4.XIN11.3                           -1K 
+X4.XIN11.6                           -1K 
+X4.XIN11.4                           -1K 
+X4.XIN11.5                           -1K 
+X4.XI_N.7                            -1K 
+X4.XI_N.8                            -1K 
+X4.XI_N.3                            -1K 
+X4.XI_N.6                            -1K 
+X4.XI_N.4                            -1K 
+X4.XI_N.5                            -1K 
+X4.XE_N.7                            -1K 
+X4.XE_N.8                            -1K 
+X4.XE_N.3                            -1K 
+X4.XE_N.6                            -1K 
+X4.XE_N.4                            -1K 
+X4.XE_N.5                            -1K 
+X4.XCLAWP.G1_NFV       -16.512,-162.772° 
+X4.XCLAWN.G1_NFV       -16.512,-162.772° 
+
+
+AC values for Diode (dB, Degrees)
+=================================
+Instance:               X3.XIN11.D1            X3.XIN11.D2             X3.XI_N.D1
+Using model:          X3.XIN11.DVNF          X3.XIN11.DVNF           X3.XI_N.DVNF
+
+Power AC Terms:
+PD                              -1K                    -1K                    -1K
+PS                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+Id                              -1K                    -1K                    -1K
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+ic                           0.000                  0.000                  0.000 
+
+
+Instance:                X3.XI_N.D2             X3.XE_N.D1             X3.XE_N.D2
+Using model:           X3.XI_N.DVNF            X3.XE_N.DVN            X3.XE_N.DVN
+
+Power AC Terms:
+PD                              -1K                    -1K                    -1K
+PS                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+Id                              -1K                    -1K                    -1K
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+ic                           0.000                  0.000                  0.000 
+
+
+Instance:               X4.XIN11.D1            X4.XIN11.D2             X4.XI_N.D1
+Using model:          X4.XIN11.DVNF          X4.XIN11.DVNF           X4.XI_N.DVNF
+
+Power AC Terms:
+PD                              -1K                    -1K                    -1K
+PS                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+Id                              -1K                    -1K                    -1K
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+ic                           0.000                  0.000                  0.000 
+
+
+Instance:                X4.XI_N.D2             X4.XE_N.D1             X4.XE_N.D2
+Using model:           X4.XI_N.DVNF            X4.XE_N.DVN            X4.XE_N.DVN
+
+Power AC Terms:
+PD                              -1K                    -1K                    -1K
+PS                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+Id                              -1K                    -1K                    -1K
+
+Device Variables:
+area                         1.000                  1.000                  1.000 
+ic                           0.000                  0.000                  0.000 
+
+
+
+AC values for Resistor (dB, Degrees)
+====================================
+Instance:                         R1                     R2                     R3
+
+Power AC Terms:
+PD                          -126.246       -214.83,-2.552f°               -194.521
+
+AC Pin Currents:
+Ir                  -97.197,179.843°       -142.426,23.754°       -141.855,90.095°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      RLOAD                     R5                     R6
+
+Power AC Terms:
+PD                          -109.606               -185.012               -155.152
+
+AC Pin Currents:
+Ir                 -76.564,-159.191°     -124.811,-155.485°     -124.651,-155.596°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                    RSTAGE1                     R8                    R90
+
+Power AC Terms:
+PD                 -148.079,-0.601f°               -119.148               -155.066
+
+AC Pin Currents:
+Ir                      -95.8,84.87°        -76.564,20.809°       -124.523,20.841°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R64                 X3.R63                 X3.R62
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                             2.723               -197.294               -185.791
+
+AC Pin Currents:
+Ir                    4.372,124.336°     -135.637,-145.936°     -135.637,-145.936°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R77                 X3.R76                 X3.R75
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                 -815.867,-2.269f°      -815.867,-2.269f°                -71.725
+
+AC Pin Currents:
+Ir                  -424.923,-68.12°       -424.923,111.88°       -32.852,-68.701°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R74                 X3.R73                 X3.R69
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                           -71.725                  2.716       -191.725,2.856f°
+
+AC Pin Currents:
+Ir                  -32.852,111.299°          4.368,124.35°      -152.852,-68.341°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R68                 X3.R44                 X3.R72
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -191.715               -178.661               -149.325
+
+AC Pin Currents:
+Ir                 -152.847,-66.431°        -146.32,23.568°        -75.631,124.35°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R71                 X3.R70                 X3.R51
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                           -77.284                  2.721       -105.36,-4.498f°
+
+AC Pin Currents:
+Ir                  -75.632,-55.879°         4.371,124.121°       -85.123,124.336°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R50              X3.RDUMMY                  X3.RX
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                           -96.435       -176.566,0.997f°       -95.352,-5.684f°
+
+AC Pin Currents:
+Ir                   -85.207,-63.64°       -124.287,-95.13°        -93.68,-55.543°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.RDC                 X3.R61                 X3.R58
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                           -11.197               -598.123               -660.066
+
+AC Pin Currents:
+Ir                   -2.588,118.445°      -299.061,-58.464°       -407.023,31.536°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R57                 X3.R56                 X3.R55
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -500.066               -597.307        -659.25,4.495f°
+
+AC Pin Currents:
+Ir                -247.023,-148.178°      -298.653,121.536°     -406.615,-148.464°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R54                 X3.R49                 X3.R48
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                           -499.25               -587.004       -656.898,1.714f°
+
+AC Pin Currents:
+Ir                  -246.614,31.823°        -323.502,9.524°       -405.439,99.529°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                    X3.RSRC                 X3.R39                 X3.R37
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -496.371                    -1K                    -1K
+
+AC Pin Currents:
+Ir                 -245.175,-66.438°                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R42                 X3.R38                 X3.R36
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -499.788               -711.715               -711.715
+
+AC Pin Currents:
+Ir                -216.884,-156.429°      -352.847,113.569°      -352.847,-66.431°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R40                 X3.R41                 X3.R21
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K               -713.812
+
+AC Pin Currents:
+Ir                -536.883,-156.418°     -536.883,-156.418°      -353.896,121.964°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R20                 X3.R29                 X3.R30
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -713.812                    -1K                    -1K
+
+AC Pin Currents:
+Ir                 -353.896,-58.036°     -537.932,-148.032°     -537.932,-148.032°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R22                 X3.R19                 X3.R12
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K               -201.484
+
+AC Pin Currents:
+Ir                               -1K                    -1K      -127.731,-58.036°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R16                 X3.R13                 X3.R17
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -569.557         -202.3,4.825f°               -570.373
+
+AC Pin Currents:
+Ir                   -251.768,31.96°       -128.14,-58.036°       -252.176,31.968°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R15                 X3.R14                 X3.R26
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -201.484                 -202.3               -381.484
+
+AC Pin Currents:
+Ir                 -127.731,-58.036°       -128.14,-58.036°      -307.731,-58.036°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R23                 X3.R25                 X3.R24
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                            -382.3               -739.692               -737.518
+
+AC Pin Currents:
+Ir                  -308.14,121.964°       -366.836,77.903°      -365.749,-95.888°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R27                 X3.R28                 X3.R32
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                 -550.872,167.912°      -549.785,174.117°           -738.39,180°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R31                 X3.R11                 X3.R18
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K      -338.537,-0.932f°               -186.644
+
+AC Pin Currents:
+Ir                               -1K       -286.258,-95.13°      -110.312,171.275°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R33                 X3.R10                 X3.R47
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -161.885               -313.778      -199.798,-3.618f°
+
+AC Pin Currents:
+Ir                 -97.932,-148.036°      -273.879,-54.441°     -116.889,-158.701°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R46                 X3.R45                 X3.R43
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -131.725               -131.725               -131.715
+
+AC Pin Currents:
+Ir                  -92.852,-68.341°       -92.852,-68.341°       -92.847,-66.431°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X3.R9                  X3.R7                  X3.R6
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -875.668      -750.373,-4.936f°               -749.556
+
+AC Pin Currents:
+Ir                  -404.824,24.375°     -492.176,-148.034°     -491.768,-148.034°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X3.R8                 X3.R89                  X3.R5
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -447.594               -510.373               -810.373
+
+AC Pin Currents:
+Ir                 -220.787,-65.622°       -252.176,31.966°     -372.176,-147.998°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R60                  X3.R3                 X3.R59
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -630.373       -995.01,-3.829f°               -629.556
+
+AC Pin Currents:
+Ir                -372.176,-148.034°      -614.495,121.968°     -371.768,-148.034°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X3.R4                 X3.R88               X3.R_PSR
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                          -809.556               -509.556               -639.648
+
+AC Pin Currents:
+Ir                -371.768,-147.998°     -251.768,-148.034°      -346.814,121.536°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X3.R2                  X3.R1               X3.R_CMR
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K       -580.984,1.124f°
+
+AC Pin Currents:
+Ir                               -1K          -475.833,-90°        -317.482,9.524°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R53                 X3.R52                 X3.R35
+Using model:          X3.R_NOISELESS         X3.R_NOISELESS         X3.R_NOISELESS
+
+Power AC Terms:
+PD                  -378.661,2.956f°               -687.649               -402.652
+
+AC Pin Currents:
+Ir                   -306.32,23.568°      -460.814,-66.432°      -178.316,113.568°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X3.R34                 X4.R64                 X4.R63
+Using model:          X3.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -407.649                  37.98               -162.037
+
+AC Pin Currents:
+Ir                 -180.814,-66.432°           22,-159.217°      -118.008,-69.489°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R62                 X4.R77                 X4.R76
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                  -150.533,3.187f°       -778.09,-1.875f°       -778.09,-1.875f°
+
+AC Pin Currents:
+Ir                 -118.008,-69.489°       -406.035,16.643°     -406.035,-163.357°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R75                 X4.R74                 X4.R73
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                           -33.939                -33.939                 37.974
+
+AC Pin Currents:
+Ir                    -13.959,16.14°       -13.959,-163.86°       21.997,-159.203°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R69                 X4.R68                 X4.R44
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                  -153.938,2.358f°               -153.928               -140.875
+
+AC Pin Currents:
+Ir                    -133.959,16.5°       -133.954,18.409°      -127.427,108.408°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R72                 X4.R71                 X4.R70
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -114.067                -42.026                 37.978
+
+AC Pin Currents:
+Ir                 -58.003,-159.203°        -58.003,20.568°       21.999,-159.432°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R51                 X4.R50              X4.RDUMMY
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                           -70.103        -61.178,1.779f°               -133.094
+
+AC Pin Currents:
+Ir                 -67.494,-159.217°        -67.579,12.807°       -102.551,20.322°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X4.RX                 X4.RDC                 X4.R61
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                           -60.138                  24.06               -563.356
+
+AC Pin Currents:
+Ir                     -76.073,20.8°        15.04,-165.108°         -281.678,16.8°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R58                 X4.R57                 X4.R56
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -625.299,-2.886f°               -465.299                -562.54
+
+AC Pin Currents:
+Ir                   -389.639,106.8°      -229.639,-72.913°        -281.27,-163.2°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R55                 X4.R54                 X4.R49
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -624.483,-2.627f°               -464.483               -549.218
+
+AC Pin Currents:
+Ir                   -389.231,-73.2°      -229.231,107.087°       -304.609,94.364°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R48                X4.RSRC                 X4.R39
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -619.111,-0.708f°               -458.584                    -1K
+
+AC Pin Currents:
+Ir                -386.545,-175.631°       -226.282,18.402°                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R37                 X4.R42                 X4.R38
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K               -462.001               -673.928
+
+AC Pin Currents:
+Ir                               -1K       -197.99,-71.591°     -333.954,-161.591°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R36                 X4.R40                 X4.R41
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -673.928                    -1K                    -1K
+
+AC Pin Currents:
+Ir                  -333.954,18.409°       -517.99,-71.586°       -517.99,-71.586°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R21                 X4.R20                 X4.R29
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -679.045               -679.045                    -1K
+
+AC Pin Currents:
+Ir                -336.512,-162.772°       -336.512,17.228°      -520.549,-72.778°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R30                 X4.R22                 X4.R19
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                 -520.549,-72.778°                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R12                 X4.R16                 X4.R13
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -166.717               -534.789       -167.533,-2.82f°
+
+AC Pin Currents:
+Ir                  -110.348,17.228°      -234.384,107.233°       -110.756,17.228°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R17                 X4.R15                 X4.R14
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -535.606               -166.717        -167.533,2.82f°
+
+AC Pin Currents:
+Ir                 -234.793,107.231°       -110.348,17.228°       -110.756,17.228°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R26                 X4.R23                 X4.R25
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -346.717,-2.391f°      -347.533,-2.627f°               -696.013
+
+AC Pin Currents:
+Ir                  -290.348,17.228°     -290.756,-162.772°       -344.996,-163.3°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R24                 X4.R27                 X4.R28
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -694.271                    -1K                    -1K
+
+AC Pin Currents:
+Ir                   -344.125,16.75°      -529.032,-73.295°       -528.16,-73.228°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R32                 X4.R31                 X4.R11
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                               -1K                    -1K               -295.065
+
+AC Pin Currents:
+Ir                -714.044,-165.964°                    -1K       -264.522,20.322°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R18                 X4.R33                 X4.R10
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -143.172,-2.732f°               -127.118               -279.011
+
+AC Pin Currents:
+Ir                  -88.576,-73.273°       -80.549,-72.772°       -256.495,20.823°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R47                 X4.R46                 X4.R45
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -162.011        -93.938,2.415f°        -93.938,2.415f°
+
+AC Pin Currents:
+Ir                   -97.995,-73.86°          -73.959,16.5°          -73.959,16.5°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R43                  X4.R9                  X4.R7
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                  -93.928,-2.412f°               -837.879       -715.606,2.886f°
+
+AC Pin Currents:
+Ir                   -73.954,18.409°      -385.929,109.221°       -474.793,-72.77°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X4.R6                  X4.R8                 X4.R89
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                   -714.79,2.627f°               -409.806               -475.606
+
+AC Pin Currents:
+Ir                  -474.385,-72.77°       -201.893,19.222°       -234.793,107.23°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                      X4.R5                 X4.R60                  X4.R3
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -775.606       -595.606,3.026f°               -960.244
+
+AC Pin Currents:
+Ir                 -354.793,-72.734°       -354.793,-72.77°     -597.112,-162.768°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R59                  X4.R4                 X4.R88
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                  -594.79,-2.754f°                -774.79                -474.79
+
+AC Pin Currents:
+Ir                  -354.385,-72.77°      -354.385,-72.734°       -234.385,-72.77°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                   X4.R_PSR                  X4.R2                  X4.R1
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                          -604.881                    -1K                    -1K
+
+AC Pin Currents:
+Ir                   -329.43,-163.2°                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                   X4.R_CMR                 X4.R53                 X4.R52
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS         X4.R_NOISELESS
+
+Power AC Terms:
+PD                 -543.197,-0.928f°               -340.875               -649.863
+
+AC Pin Currents:
+Ir                  -298.588,94.364°      -287.427,108.408°       -441.921,18.408°
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                     X4.R35                 X4.R34            X3.XIN11.R1
+Using model:          X4.R_NOISELESS         X4.R_NOISELESS                     NA
+
+Power AC Terms:
+PD                          -364.865               -369.863                    -1K
+
+AC Pin Currents:
+Ir                -159.422,-161.592°       -161.921,18.408°                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                X3.XIN11.R2            X3.XIN11.R3            X3.XIN11.R4
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                X3.XIN11.R5            X3.XIN11.R6            X3.XIN11.R7
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X3.XI_N.R1             X3.XI_N.R2             X3.XI_N.R3
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X3.XI_N.R4             X3.XI_N.R5             X3.XI_N.R6
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X3.XI_N.R7             X3.XE_N.R1             X3.XE_N.R2
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X3.XE_N.R3             X3.XE_N.R4             X3.XE_N.R5
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X3.XE_N.R6             X3.XE_N.R7            X4.XIN11.R1
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                X4.XIN11.R2            X4.XIN11.R3            X4.XIN11.R4
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                X4.XIN11.R5            X4.XIN11.R6            X4.XIN11.R7
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X4.XI_N.R1             X4.XI_N.R2             X4.XI_N.R3
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X4.XI_N.R4             X4.XI_N.R5             X4.XI_N.R6
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X4.XI_N.R7             X4.XE_N.R1             X4.XE_N.R2
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X4.XE_N.R3             X4.XE_N.R4             X4.XE_N.R5
+
+Power AC Terms:
+PD                               -1K                    -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000                  0.000 
+tc2                           0.000                  0.000                  0.000 
+
+
+Instance:                 X4.XE_N.R6             X4.XE_N.R7
+
+Power AC Terms:
+PD                               -1K                    -1K
+
+AC Pin Currents:
+Ir                               -1K                    -1K
+
+Device Variables:
+tc1                           0.000                  0.000 
+tc2                           0.000                  0.000 
+
+
+
+AC values for Capacitor (dB, Degrees)
+=====================================
+Instance:                         C1                     C2                     C3
+
+Power AC Terms:
+PS                     -149.907,-90°          -256.304,-90°          -148.484,-90°
+
+AC Pin Currents:
+Ic                 -97.241,-179.952°       -141.975,89.747°        -76.529,20.809°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                        C29                 X3.C22                 X3.C28
+
+Power AC Terms:
+PS                     -220.034,-90°          -137.286,-90°          -731.831,-90°
+
+AC Pin Currents:
+Ic                  -124.523,20.841°     -135.637,-145.936°       -424.923,-68.12°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C27                 X3.C25                 X3.C20
+
+Power AC Terms:
+PS                     -731.831,-90°          -221.267,-90°           -86.521,-90°
+
+AC Pin Currents:
+Ic                  -424.923,111.88°     -182.395,-158.341°      -47.654,-156.431°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C26                 X3.C21                 X3.C16
+
+Power AC Terms:
+PS                     -125.243,-90°          -113.505,-90°          -552.105,-90°
+
+AC Pin Currents:
+Ic                  -123.591,34.121°      -102.278,-153.64°      -299.061,-58.464°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C15                 X3.C14              X3.C_DIFF
+
+Power AC Terms:
+PS                     -551.289,-90°          -574.961,-90°          -253.155,-90°
+
+AC Pin Currents:
+Ic                 -298.653,121.536°        -323.502,9.529°      -180.814,-66.432°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C19                 X3.C17                 X3.C18
+
+Power AC Terms:
+PS                     -255.751,-90°          -895.751,-90°          -895.751,-90°
+
+AC Pin Currents:
+Ic                -216.884,-156.431°     -536.884,-156.431°       -536.884,23.569°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X3.C9                  X3.C8                  X3.C6
+
+Power AC Terms:
+PS                     -897.848,-90°          -897.848,-90°          -326.336,-90°
+
+AC Pin Currents:
+Ic                -537.932,-148.036°       -537.932,31.964°     -252.176,-148.036°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X3.C5                 X3.C11                 X3.C10
+
+Power AC Terms:
+PS                      -325.52,-90°          -923.728,-90°          -921.554,-90°
+
+AC Pin Currents:
+Ic                -251.768,-148.036°      -550.872,167.903°       -549.785,-5.888°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C12                  X3.C7                 X3.C13
+
+Power AC Terms:
+PS                          -1K,-90°          -162.607,-90°          -137.848,-90°
+
+AC Pin Currents:
+Ic                      -782.426,90°      -110.312,171.275°      -97.932,-148.036°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X3.C24                  X3.C4                  X3.C3
+
+Power AC Terms:
+PS                     -155.762,-90°          -631.631,-90°          -694.409,-90°
+
+AC Pin Currents:
+Ic                -116.889,-158.701°     -404.823,-155.622°      -436.212,121.966°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X3.C1                  X3.C2               X3.C_CMN
+
+Power AC Terms:
+PS                     -779.047,-90°          -693.593,-90°          -262.698,-90°
+
+AC Pin Currents:
+Ic                -398.531,-148.032°      -435.804,-58.034°      -190.357,113.568°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                   X3.C_CMP                 X4.C22                 X4.C28
+
+Power AC Terms:
+PS                     -571.686,-90°          -102.028,-90°          -694.054,-90°
+
+AC Pin Currents:
+Ic                  -344.851,23.568°      -118.008,-69.489°       -406.035,16.643°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C27                 X4.C25                 X4.C20
+
+Power AC Terms:
+PS                     -694.054,-90°          -183.481,-90°           -48.735,-90°
+
+AC Pin Currents:
+Ic                -406.035,-163.357°        -163.501,-73.5°        -28.76,-71.591°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C26                 X4.C21                 X4.C16
+
+Power AC Terms:
+PS                      -89.985,-90°           -78.248,-90°          -517.338,-90°
+
+AC Pin Currents:
+Ic                 -105.962,110.568°       -84.649,-77.193°         -281.678,16.8°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C15                 X4.C14              X4.C_DIFF
+
+Power AC Terms:
+PS                     -516.522,-90°          -537.175,-90°          -215.369,-90°
+
+AC Pin Currents:
+Ic                   -281.27,-163.2°       -304.609,94.369°       -161.921,18.408°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C19                 X4.C17                 X4.C18
+
+Power AC Terms:
+PS                     -217.965,-90°          -857.965,-90°          -857.965,-90°
+
+AC Pin Currents:
+Ic                  -197.99,-71.591°       -517.99,-71.591°       -517.99,108.409°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X4.C9                  X4.C8                  X4.C6
+
+Power AC Terms:
+PS                     -863.082,-90°          -863.082,-90°          -291.569,-90°
+
+AC Pin Currents:
+Ic                 -520.549,-72.772°      -520.549,107.228°      -234.793,-72.772°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X4.C5                 X4.C11                 X4.C10
+
+Power AC Terms:
+PS                     -290.753,-90°           -880.05,-90°          -878.307,-90°
+
+AC Pin Currents:
+Ic                 -234.385,-72.772°        -529.033,-73.3°       -528.161,106.75°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C12                  X4.C7                 X4.C13
+
+Power AC Terms:
+PS                          -1K,-90°          -119.136,-90°          -103.082,-90°
+
+AC Pin Currents:
+Ic                  -758.08,104.036°       -88.576,-73.273°       -80.549,-72.772°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                     X4.C24                  X4.C4                  X4.C3
+
+Power AC Terms:
+PS                     -117.975,-90°          -593.843,-90°          -659.642,-90°
+
+AC Pin Currents:
+Ic                   -97.995,-73.86°      -385.929,-70.778°      -418.829,-162.77°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                      X4.C1                  X4.C2               X4.C_CMN
+
+Power AC Terms:
+PS                      -744.28,-90°          -658.826,-90°          -224.911,-90°
+
+AC Pin Currents:
+Ic                 -381.148,-72.768°        -418.421,17.23°     -171.463,-161.592°
+
+Device Variables:
+ic                            0.000                  0.000                  0.000 
+
+
+Instance:                   X4.C_CMP
+
+Power AC Terms:
+PS                     -533.899,-90°
+
+AC Pin Currents:
+Ic                 -325.957,108.408°
+
+Device Variables:
+ic                            0.000 
+
+
+
+AC values for S (dB, Degrees)
+=============================
+Instance:                      X3.S5                  X3.S4                  X3.S2
+Using model:          X3.S_VSWITCH_1         X3.S_VSWITCH_2         X3.S_VSWITCH_3
+
+Power AC Terms:
+PD                          -687.649               -378.661               -378.661
+
+AC Pin Currents:
+ISource            -460.814,-66.432°      -306.32,-156.432°        -306.32,23.568°
+
+
+Instance:                      X3.S3             X3.SOR_SWP             X3.SOR_SWN
+Using model:          X3.S_VSWITCH_4         X3.S_VSWITCH_5         X3.S_VSWITCH_6
+
+Power AC Terms:
+PD                          -687.649                -367.81                -367.81
+
+AC Pin Currents:
+ISource            -460.814,113.568°     -300.895,-158.427°       -300.895,21.573°
+
+
+Instance:                      X3.S1                  X3.S7                  X3.S6
+Using model:          X3.S_VSWITCH_7         X3.S_VSWITCH_8         X3.S_VSWITCH_9
+
+Power AC Terms:
+PD                  -256.435,4.797f°               -338.536               -338.536
+
+AC Pin Currents:
+ISource             -245.207,116.36°       -286.258,-95.13°        -286.258,84.87°
+
+
+Instance:                      X4.S5                  X4.S4                  X4.S2
+Using model:          X4.S_VSWITCH_1         X4.S_VSWITCH_2         X4.S_VSWITCH_3
+
+Power AC Terms:
+PD                          -649.863               -340.875               -340.875
+
+AC Pin Currents:
+ISource             -441.921,18.408°      -287.427,-71.592°      -287.427,108.408°
+
+
+Instance:                      X4.S3             X4.SOR_SWP             X4.SOR_SWN
+Using model:          X4.S_VSWITCH_4         X4.S_VSWITCH_5         X4.S_VSWITCH_6
+
+Power AC Terms:
+PD                          -649.863               -330.023               -330.023
+
+AC Pin Currents:
+ISource           -441.921,-161.592°      -282.001,-73.586°      -282.001,106.414°
+
+
+Instance:                      X4.S1                  X4.S7                  X4.S6
+Using model:          X4.S_VSWITCH_7         X4.S_VSWITCH_8         X4.S_VSWITCH_9
+
+Power AC Terms:
+PD                          -221.178       -295.065,3.201f°       -295.065,3.201f°
+
+AC Pin Currents:
+ISource           -227.579,-167.193°       -264.522,20.322°     -264.522,-159.678°
+
+
+
+AC values for Function Source (dB, Degrees)
+===========================================
+Instance:        X3.XVCCS_LIM_ZO.G1      X3.XVCCS_LIM_2.G1      X3.XVCCS_LIM_1.G1
+
+Power AC Terms:
+PG                   2.716,-1.345u°           -86.521,-90°       -178.661,0.297f°
+
+AC Pin Currents:
+ISource               4.369,124.35°      -47.654,-156.432°      -146.32,-156.432°
+
+
+Instance:              X3.XIQPOS.G1           X3.XIQNEG.G1        X3.XCL_AMP.GVO+
+
+Power AC Terms:
+PG                 -474.411,3.944m°     -734.411,-179.996°         -713.812,-36n°
+
+AC Pin Currents:
+ISource            -93.896,121.964°      -353.896,121.964°      -353.896,121.964°
+
+
+Instance:           X3.XCL_AMP.GVO-        X3.XGR_AMP.GVO+        X3.XGR_AMP.GVO-
+
+Power AC Terms:
+PG                   -713.812,-36n°         -711.715,-36n°         -711.715,-36n°
+
+AC Pin Currents:
+ISource           -353.896,121.964°      -352.847,113.569°      -352.847,113.569°
+
+
+Instance:             X3.XGR_SRC.G1          X3.XCL_SRC.G1     X3.XCLAWP.E_$$G1$$
+
+Power AC Terms:
+PG                         -690.431       -692.219,-10.62°                    -1K
+
+AC Pin Currents:
+ISource            -652.028,-67.38°      -652.972,-59.036°                    -1K
+
+
+Instance:        X3.XCLAWN.E_$$G1$$      X3.XCLAW_AMP.GVO+      X3.XCLAW_AMP.GVO-
+
+Power AC Terms:
+PG                              -1K     -739.692,-35.999n°     -737.518,-35.999n°
+
+AC Pin Currents:
+ISource                         -1K       -366.836,77.903°       -365.749,84.112°
+
+
+Instance:           X3.XCLAW_SRC.G1      X3.XOL_SENSE.GSW+       X3.XVCM_CLAMP.G1
+
+Power AC Terms:
+PG                -420.785,-10.304°                    -1K         -447.594,-36n°
+
+AC Pin Currents:
+ISource           -381.913,-58.036°      -684.953,121.968°      -220.787,114.378°
+
+
+Instance:        X4.XVCCS_LIM_ZO.G1      X4.XVCCS_LIM_2.G1      X4.XVCCS_LIM_1.G1
+
+Power AC Terms:
+PG                 37.974,-28.143n°           -48.735,-90°       -140.875,-2.64f°
+
+AC Pin Currents:
+ISource            21.997,-159.203°        -28.76,-71.592°      -127.427,-71.592°
+
+
+Instance:              X4.XIQPOS.G1           X4.XIQNEG.G1        X4.XCL_AMP.GVO+
+
+Power AC Terms:
+PG                 -439.645,3.944m°     -699.645,-179.996°         -679.045,-36n°
+
+AC Pin Currents:
+ISource           -76.512,-162.772°     -336.512,-162.772°     -336.512,-162.772°
+
+
+Instance:           X4.XCL_AMP.GVO-        X4.XGR_AMP.GVO+        X4.XGR_AMP.GVO-
+
+Power AC Terms:
+PG                   -679.045,-36n°         -673.928,-36n°         -673.928,-36n°
+
+AC Pin Currents:
+ISource          -336.512,-162.772°     -333.954,-161.591°     -333.954,-161.591°
+
+
+Instance:             X4.XGR_SRC.G1          X4.XCL_SRC.G1     X4.XCLAWP.E_$$G1$$
+
+Power AC Terms:
+PG                  -654.296,2.862°               -656.245                    -1K
+
+AC Pin Currents:
+ISource            -632.896,17.819°       -635.871,16.699°                    -1K
+
+
+Instance:        X4.XCLAWN.E_$$G1$$      X4.XCLAW_AMP.GVO+      X4.XCLAW_AMP.GVO-
+
+Power AC Terms:
+PG                              -1K         -696.013,-36n°         -694.271,-36n°
+
+AC Pin Currents:
+ISource                         -1K       -344.996,-163.3°      -344.125,-163.25°
+
+
+Instance:           X4.XCLAW_SRC.G1      X4.XOL_SENSE.GSW+       X4.XVCM_CLAMP.G1
+
+Power AC Terms:
+PG              -384.509,-728.483m°                    -1K         -409.806,-36n°
+
+AC Pin Currents:
+ISource            -364.529,17.228°     -667.569,-162.768°     -201.893,-160.778°
+
+
+
+AC values for SPICE Poly (dB, Degrees)
+======================================
+Instance:                 X3.GVCCS4              X3.GVCCS8              X3.GVCCS7
+
+Power AC Terms:
+PG                  2.722,-22.904u°        -71.725,2.273p°        -71.725,2.273p°
+
+AC Pin Currents:
+ISource              4.371,-55.879°       -32.852,-68.701°       -32.852,-68.701°
+
+
+Instance:                 X3.GVCCS6              X3.GVCCS3            X3.G_AOL_ZO
+
+Power AC Terms:
+PG                  -191.72,-1.909°         2.723,-5.724u°     -11.197,-439.227u°
+
+AC Pin Currents:
+ISource           -152.847,-66.431°         4.372,-55.664°        -2.588,-61.555°
+
+
+Instance:                 X3.GVCCS2              X3.GVCCS1            X3.G_ADJUST
+
+Power AC Terms:
+PG              -500.066,-143.274m°    -499.249,-143.274m°      -496.371,-6.739m°
+
+AC Pin Currents:
+ISource          -247.022,-148.034°       -246.614,31.966°      -245.175,-66.432°
+
+
+Instance:                     X3.G2                  X3.G3                  X3.H2
+
+Power AC Terms:
+PG                         -201.484                 -202.3      -731.831,-89.996°
+
+AC Pin Currents:
+ISource           -127.731,121.964°       -128.14,-58.036°       -424.923,-68.12°
+
+
+Instance:                     X3.H3                  X3.H1                  X3.E5
+
+Power AC Terms:
+PG                -731.831,-89.996°      -137.831,-86.405°       -162.59,-86.405°
+
+AC Pin Currents:
+ISource            -424.923,111.88°        -97.932,31.964°       -110.312,-8.725°
+
+
+Instance:                     X3.E4                  X3.G9                  X3.G8
+
+Power AC Terms:
+PG                 -155.761,-89.64°               -131.725      -131.725,35.096f°
+
+AC Pin Currents:
+ISource            -116.889,21.299°       -92.852,-68.341°       -92.852,-68.341°
+
+
+Instance:                    X3.G15                  X3.E1                 X3.G17
+
+Power AC Terms:
+PG                   -131.715,-36u°       -498.447,-90.01°                    -1K
+
+AC Pin Currents:
+ISource            -92.847,-66.431°       -117.932,31.977°                    -1K
+
+
+Instance:                    X3.G16               X3.G_PSR               X3.G_CMR
+
+Power AC Terms:
+PG                              -1K     -639.648,-15.078p°    -580.984,-505.462n°
+
+AC Pin Currents:
+ISource                         -1K      -346.814,121.536°        -317.482,9.524°
+
+
+Instance:                 X4.GVCCS4              X4.GVCCS8              X4.GVCCS7
+
+Power AC Terms:
+PG                 37.979,-22.904u°         -33.939,2.27p°         -33.939,2.27p°
+
+AC Pin Currents:
+ISource                  22,20.568°         -13.959,16.14°         -13.959,16.14°
+
+
+Instance:                 X4.GVCCS6              X4.GVCCS3            X4.G_AOL_ZO
+
+Power AC Terms:
+PG                 -153.933,-1.909°         37.98,-5.724u°      24.061,-439.227u°
+
+AC Pin Currents:
+ISource            -133.954,18.409°             22,20.783°         15.041,14.893°
+
+
+Instance:                 X4.GVCCS2              X4.GVCCS1            X4.G_ADJUST
+
+Power AC Terms:
+PG              -465.299,-143.274m°    -464.483,-143.274m°      -458.584,-6.739m°
+
+AC Pin Currents:
+ISource            -229.639,-72.77°       -229.231,107.23°       -226.282,18.408°
+
+
+Instance:                     X4.G2                  X4.G3                  X4.H2
+
+Power AC Terms:
+PG                 -166.717,2.567f°               -167.533      -694.054,-89.996°
+
+AC Pin Currents:
+ISource          -110.348,-162.772°       -110.756,17.228°       -406.035,16.643°
+
+
+Instance:                     X4.H3                  X4.H1                  X4.E5
+
+Power AC Terms:
+PG                -694.054,-89.996°      -103.064,-86.405°      -119.119,-86.405°
+
+AC Pin Currents:
+ISource          -406.035,-163.357°       -80.549,107.228°       -88.576,106.727°
+
+
+Instance:                     X4.E4                  X4.G9                  X4.G8
+
+Power AC Terms:
+PG                 -117.975,-89.64°        -93.938,2.415f°        -93.938,2.415f°
+
+AC Pin Currents:
+ISource             -97.995,106.14°          -73.959,16.5°          -73.959,16.5°
+
+
+Instance:                    X4.G15                  X4.E1                 X4.G17
+
+Power AC Terms:
+PG                    -93.928,-36u°      -463.681,-90.012°                    -1K
+
+AC Pin Currents:
+ISource             -73.954,18.409°      -100.549,107.244°                    -1K
+
+
+Instance:                    X4.G16               X4.G_PSR               X4.G_CMR
+
+Power AC Terms:
+PG                              -1K        -604.881,1.16p°    -543.197,-505.462n°
+
+AC Pin Currents:
+ISource                         -1K        -329.43,-163.2°       -298.588,94.364°
+
+
+Instance:               X3.XIN11.E1            X3.XIN11.E2            X3.XIN11.G1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X3.XI_N.E1             X3.XI_N.E2             X3.XI_N.G1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X3.XE_N.E1             X3.XE_N.E2             X3.XE_N.E3
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K      -478.275,-65.619°
+
+
+Instance:               X4.XIN11.E1            X4.XIN11.E2            X4.XIN11.G1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X4.XI_N.E1             X4.XI_N.E2             X4.XI_N.G1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X4.XE_N.E1             X4.XE_N.E2             X4.XE_N.E3
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K       -459.382,19.221°
+
+
+
+AC values for SPICE Source (dB, Degrees)
+========================================
+Instance:                        V1                     V2                     V3
+
+Power AC Terms:
+PG               -126.193,156.843m°                    -1K                    -1K
+
+AC Pin Currents:
+ISource            -97.197,179.843°         -76.15,10.026°     -264.826,-168.373°
+
+
+Instance:               PROBE1.Vinj             PROBE1.Vol            PROBE1.Iinj
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource            -97.241,47.522m°      -97.241,-179.952°                    -1K
+
+
+Instance:                PROBE2.Vol                 X3.VS1                X3.I_OS
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource          -124.651,-155.596°      -478.275,114.381°                    -1K
+
+
+Instance:                    X3.I_B               X3.V_GRP               X3.V_GRN
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                 X3.V_ISCP              X3.V_ISCN               X3.V_ORN
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                    X3.V11               X3.V_ORP                 X3.V12
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource          -300.887,-158.117°                    -1K     -300.887,-158.117°
+
+
+Instance:                     X3.V4             X3.VCM_MIN             X3.VCM_MAX
+
+Power AC Terms:
+PG                 -460.73,127.087°                    -1K                    -1K
+
+AC Pin Currents:
+ISource            -93.879,125.559°      -444.037,-63.121°      -444.84,-119.836°
+
+
+Instance:                    X3.I_Q                 X4.VS1                X4.I_OS
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K     -459.382,-160.779°                    -1K
+
+
+Instance:                    X4.I_B               X4.V_GRP               X4.V_GRN
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                 X4.V_ISCP              X4.V_ISCN               X4.V_ORN
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                    X4.V11               X4.V_ORP                 X4.V12
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource           -281.998,-73.353°                    -1K      -281.998,-73.353°
+
+
+Instance:                     X4.V4             X4.VCM_MIN             X4.VCM_MAX
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource           -76.495,-159.177°       -438.652,77.218°         -421.663,6.78°
+
+
+Instance:                    X4.I_Q            X3.XIN11.I1            X3.XIN11.I2
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X3.XI_N.I1             X3.XI_N.I2             X3.XE_N.I1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X3.XE_N.I2            X4.XIN11.I1            X4.XIN11.I2
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X4.XI_N.I1             X4.XI_N.I2             X4.XE_N.I1
+
+Power AC Terms:
+PG                              -1K                    -1K                    -1K
+
+AC Pin Currents:
+ISource                         -1K                    -1K                    -1K
+
+
+Instance:                X4.XE_N.I2
+
+Power AC Terms:
+PG                              -1K
+
+AC Pin Currents:
+ISource                         -1K
+
+
+
+AC values for Table Source (dB, Degrees)
+========================================
+Instance:              X3.XCLAWP.G1           X3.XCLAWN.G1           X4.XCLAWP.G1
+
+Power AC Terms:
+PG                   -201.484,-36u°           -202.3,-36u°         -166.717,-36u°
+
+AC Pin Currents:
+ISource           -127.731,121.964°       -128.14,121.964°     -110.348,-162.772°
+
+
+Instance:              X4.XCLAWN.G1
+
+Power AC Terms:
+PG                   -167.533,-36u°
+
+AC Pin Currents:
+ISource          -110.756,-162.772°
+
+

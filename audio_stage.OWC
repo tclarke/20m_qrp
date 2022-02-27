@@ -1,0 +1,45 @@
+DC OP Worst Case 2/25/2022 11:20:45 PM
+
+Bias Tolerance Library = C:\mc12cd\library\Standard.tlib
+Temperature = 27
+
+Number of Input Variables = 6
+Number of Output Variables = 1
+
+Output Function = v(Rload)
+Nominal value = 0.000 
+
+RSS Table
+Variable    Nominal     Initial        Drift        Total RSS Tolerances   RSS Parameter Values     RSS Variance Values          Sensitivity      
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High          Low         High        Ratio   %/% Ratio
+R1.value     5.110K      LOT=1%     0     0     0                            5.059K      5.161K   0.000E+000   0.000E+000   0.000E+000           0
+R2.value     6.340K      LOT=1%     0     0     0                            6.277K      6.403K   0.000E+000   0.000E+000   0.000E+000           0
+R3.value    57.600K      LOT=1%     0     0     0                           57.024K     58.176K   0.000E+000   0.000E+000   0.000E+000           0
+R5.value     3.400K      LOT=1%     0     0     0                            3.366K      3.434K   0.000E+000   0.000E+000   0.000E+000           0
+R6.value   102.000K      LOT=1%     0     0     0                          100.980K    103.020K   0.000E+000   0.000E+000   0.000E+000           0
+R8.value   100.000       LOT=1%     0     0     0                           99.000     101.000    0.000E+000   0.000E+000   0.000E+000           0
+
+Warning output function can't compute sensitivity, sensitivity set to 0. for R1.value,R2.value,R3.value,R5.value,R6.value,R8.value.
+
+Normal EVA Table
+Variable    Nominal     Initial        Drift        Total EVA Tolerances   EVA Parameter Values        Sensitivity      
+Name          Value   Tolerance   Neg   Pos   Rnd       Min%        Max%        Low        High        Ratio   %/% Ratio
+R1.value     5.110K      LOT=1%     0     0     0                            5.059K      5.161K   0.000E+000           0
+R2.value     6.340K      LOT=1%     0     0     0                            6.277K      6.403K   0.000E+000           0
+R3.value    57.600K      LOT=1%     0     0     0                           57.024K     58.176K   0.000E+000           0
+R5.value     3.400K      LOT=1%     0     0     0                            3.366K      3.434K   0.000E+000           0
+R6.value   102.000K      LOT=1%     0     0     0                          100.980K    103.020K   0.000E+000           0
+R8.value   100.000       LOT=1%     0     0     0                           99.000     101.000    0.000E+000           0
+
+Warning output function can't compute sensitivity, sensitivity set to 0. for R1.value,R2.value,R3.value,R5.value,R6.value,R8.value.
+
+Worst case value of v(Rload)
+By Root Sum Squared Low      +0.000 
+By Root Sum Squared High     +0.000 
+By Monte Carlo Analysis Low  Histogram for v(Rload) not found
+By Monte Carlo Analysis High Histogram for v(Rload) not found
+By Extreme Value Low         +0.000 
+By Extreme Value High        +0.000 
+
+
+Run time=0.437(Secs)

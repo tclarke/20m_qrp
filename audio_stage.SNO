@@ -3,14 +3,14 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                    Stability Analysis of audio_stage                     ***
-***                           2/24/2022 8:00:55 PM                           ***
+***                           2/27/2022 4:43:18 PM                           ***
 ********************************************************************************
 Limits
 ======
-Frequency Range          Log 1E8,11
+Frequency Range          Log 1E6,1
 Number of Points         1001
 Temperature              Linear 27
-Probe Name               PROBE1
+Probe Name               PROBE2
 Method                   Tian
 Run Options              Normal
 State Variables          Zero
@@ -35,107 +35,107 @@ Node                      Voltage  Node                      Voltage
 5                          0.000   VC                         6.000
 VE                        -6.000   8                          0.000
 9                        125.394u  10                       125.395u
-11                         0.000   X3.25                    124.960u
-X3.XE_N.2               -100.000f  X3.XIN11.1               125.394u
-X3.XVCM_CLAMP.IOUT+   -4.612E-021  X3.XGR_AMP.VC+           110.000
-X3.XGR_AMP.VC-          -110.000   X3.XCL_AMP.VC+            80.000
-X3.XCL_AMP.VC-           -80.000   X3.34                    -11.999
-X3.VCLP                  518.305u  X3.55                    -11.999
-X3.33                    -11.999   X3.32                     12.001
-X3.54                     12.001   X3.31                     12.001
-X3.43                    125.394u  X3.XVCM_CLAMP.VP-         -6.200
-X3.XCLAWN.IOUT+           -6.000   X3.XVCM_CLAMP.VP+          6.200
-X3.XCLAWP.IOUT-            6.000   X3.22                     34.702m
-X3.23                     34.705m  X3.24                     34.705m
-X3.21                     34.705m  X3.XE_N.1               -100.000f
-X3.XOL_SENSE.OLP         -12.002p  X3.28                    -12.002p
-X3.XOL_SENSE.OLN         -12.000p  X3.30                    -12.000p
-X3.XVCCS_LIM_ZO.IOUT-     34.692m  X3.XVCCS_LIM_ZO.VC+        8.673u
-X3.37                    518.305u  X3.XGR_SRC.IOUT+         518.305u
-X3.XVCCS_LIM_1.IOUT-       6.043n  X3.XVCCS_LIM_1.VC+       125.394u
-X3.XVCCS_LIM_1.VC-       125.394u  X3.42                     15.715m
-X3.41                      4.083m  X3.44                   -217.200n
-X3.45                    -10.860   X3.46                    217.200n
-X3.47                     10.860   X3.48                 -1.257E-019
-X3.49                     -6.053f  X3.XCLAWN.VC-            417.981u
-X3.XCL_AMP.VO+        -4.612E-021  X3.XCL_AMP.VO-        -4.612E-021
-X3.XGR_AMP.VIN           518.305u  X3.XGR_AMP.VO+        -4.612E-021
-X3.XGR_AMP.VO-        -4.612E-021  X3.VSENSE                518.305u
-X3.XGR_SRC.VC+        -4.612E-021  X3.XGR_SRC.VC-        -4.612E-021
-X3.XCL_SRC.VC+        -4.612E-021  X3.XCL_SRC.VC-        -4.612E-021
-X3.XCL_SRC.IOUT+         518.305u  X3.XCLAWP.IOUT+            5.990
-X3.XCLAWN.IOUT-           -5.990   X3.67                      5.990
-X3.68                     -5.990   X3.XCLAW_AMP.VC+           5.990
-X3.XCLAW_AMP.VC-          -5.990   X3.XCLAW_AMP.VIN         125.394u
-X3.XCLAW_AMP.VO+      -4.612E-021  X3.XCLAW_AMP.VO-      -4.612E-021
-X3.XCLAW_SRC.VC+      -4.612E-021  X3.XCLAW_SRC.VC-      -4.612E-021
-X3.XCLAW_SRC.IOUT+       518.305u  X3.SW_OL              -4.612E-021
-X3.XOL_SENSE.SW+      -4.612E-021  X3.74                    417.981u
-X3.75                    125.394u  X3.76                    518.305u
-X3.XVCM_CLAMP.IOUT-      125.394u  X3.XVCM_CLAMP.VIN+       125.394u
-X3.82                     -6.000   X3.81                 -4.612E-021
-X3.83                      6.000   X3.84                    124.960u
-X3.85                    124.960u  X4.25                    124.960u
-X4.XE_N.2               -100.000f  X4.XIN11.1               125.394u
-X4.XVCM_CLAMP.IOUT+   -8.578E-029  X4.XGR_AMP.VC+           110.000
-X4.XGR_AMP.VC-          -110.000   X4.XCL_AMP.VC+            80.000
-X4.XCL_AMP.VC-           -80.000   X4.34                    -12.000
-X4.VCLP                  141.017u  X4.55                    -12.000
-X4.33                    -12.000   X4.32                     12.000
-X4.54                     12.000   X4.31                     12.000
-X4.43                    125.395u  X4.XVCM_CLAMP.VP-         -6.200
-X4.XCLAWN.IOUT+           -6.000   X4.XVCM_CLAMP.VP+          6.200
-X4.XCLAWP.IOUT-            6.000   X4.22                      1.380m
-X4.23                      1.380m  X4.24                      1.380m
-X4.21                      1.380m  X4.XE_N.1               -100.000f
-X4.XOL_SENSE.OLP         -12.002p  X4.28                    -12.002p
-X4.XOL_SENSE.OLN         -12.000p  X4.30                    -12.000p
-X4.XVCCS_LIM_ZO.IOUT-      1.379m  X4.XVCCS_LIM_ZO.VC+      344.841n
-X4.37                    141.017u  X4.XGR_SRC.IOUT+         141.017u
-X4.XVCCS_LIM_1.IOUT-       1.644n  X4.XVCCS_LIM_1.VC+       125.394u
-X4.XVCCS_LIM_1.VC-       125.394u  X4.42                    624.827u
-X4.41                    162.335u  X4.44                   -217.200n
-X4.45                    -10.860   X4.46                    217.200n
-X4.47                     10.860   X4.48                 -1.211E-019
-X4.49                     -6.053f  X4.XCLAWN.VC-              7.773p
-X4.XCL_AMP.VO+        -8.629E-029  X4.XCL_AMP.VO-        -8.629E-029
-X4.XGR_AMP.VIN           141.017u  X4.XGR_AMP.VO+        -8.581E-029
-X4.XGR_AMP.VO-        -8.581E-029  X4.VSENSE                141.017u
-X4.XGR_SRC.VC+        -8.581E-029  X4.XGR_SRC.VC-        -8.581E-029
-X4.XCL_SRC.VC+        -8.629E-029  X4.XCL_SRC.VC-        -8.629E-029
-X4.XCL_SRC.IOUT+         141.017u  X4.XCLAWP.IOUT+            5.990
-X4.XCLAWN.IOUT-           -5.990   X4.67                      5.990
-X4.68                     -5.990   X4.XCLAW_AMP.VC+           5.990
-X4.XCLAW_AMP.VC-          -5.990   X4.XCLAW_AMP.VIN         125.395u
-X4.XCLAW_AMP.VO+      -8.576E-029  X4.XCLAW_AMP.VO-      -8.576E-029
-X4.XCLAW_SRC.VC+      -8.576E-029  X4.XCLAW_SRC.VC-      -8.576E-029
-X4.XCLAW_SRC.IOUT+       141.017u  X4.SW_OL              -8.578E-029
-X4.XOL_SENSE.SW+      -8.578E-029  X4.74                      7.773p
-X4.75                    125.395u  X4.76                    141.017u
-X4.XVCM_CLAMP.IOUT-      125.394u  X4.XVCM_CLAMP.VIN+       125.394u
-X4.82                     -6.000   X4.81                 -8.578E-029
-X4.83                      6.000   X4.84                    124.960u
-X4.85                    124.960u  X3.XIN11.7               833.763m
-X3.XIN11.8               833.763m  X3.XIN11.3                 0.000
-X3.XIN11.6                 0.000   X3.XIN11.4                 0.000
-X3.XIN11.5                 0.000   X3.XI_N.7                833.763m
-X3.XI_N.8                833.763m  X3.XI_N.3                  0.000
-X3.XI_N.6                  0.000   X3.XI_N.4                  0.000
-X3.XI_N.5                  0.000   X3.XE_N.7                833.763m
-X3.XE_N.8                833.763m  X3.XE_N.3                  0.000
-X3.XE_N.6                  0.000   X3.XE_N.4                  0.000
-X3.XE_N.5                  0.000   X3.XCLAWP.G1_NFV         417.981u
-X3.XCLAWN.G1_NFV         417.981u  X4.XIN11.7               833.763m
-X4.XIN11.8               833.763m  X4.XIN11.3                 0.000
-X4.XIN11.6                 0.000   X4.XIN11.4                 0.000
-X4.XIN11.5                 0.000   X4.XI_N.7                833.763m
-X4.XI_N.8                833.763m  X4.XI_N.3                  0.000
-X4.XI_N.6                  0.000   X4.XI_N.4                  0.000
-X4.XI_N.5                  0.000   X4.XE_N.7                833.763m
-X4.XE_N.8                833.763m  X4.XE_N.3                  0.000
-X4.XE_N.6                  0.000   X4.XE_N.4                  0.000
-X4.XE_N.5                  0.000   X4.XCLAWP.G1_NFV           7.773p
-X4.XCLAWN.G1_NFV           7.773p
+11                         0.000   12                       125.395u
+X3.25                    124.960u  X3.XE_N.2               -100.000f
+X3.XIN11.1               125.394u  X3.XVCM_CLAMP.IOUT+   -4.612E-021
+X3.XGR_AMP.VC+           110.000   X3.XGR_AMP.VC-          -110.000
+X3.XCL_AMP.VC+            80.000   X3.XCL_AMP.VC-           -80.000
+X3.34                    -11.999   X3.VCLP                  518.305u
+X3.55                    -11.999   X3.33                    -11.999
+X3.32                     12.001   X3.54                     12.001
+X3.31                     12.001   X3.43                    125.394u
+X3.XVCM_CLAMP.VP-         -6.200   X3.XCLAWN.IOUT+           -6.000
+X3.XVCM_CLAMP.VP+          6.200   X3.XCLAWP.IOUT-            6.000
+X3.22                     34.702m  X3.23                     34.705m
+X3.24                     34.705m  X3.21                     34.705m
+X3.XE_N.1               -100.000f  X3.XOL_SENSE.OLP         -12.002p
+X3.28                    -12.002p  X3.XOL_SENSE.OLN         -12.000p
+X3.30                    -12.000p  X3.XVCCS_LIM_ZO.IOUT-     34.692m
+X3.XVCCS_LIM_ZO.VC+        8.673u  X3.37                    518.305u
+X3.XGR_SRC.IOUT+         518.305u  X3.XVCCS_LIM_1.IOUT-       6.043n
+X3.XVCCS_LIM_1.VC+       125.394u  X3.XVCCS_LIM_1.VC-       125.394u
+X3.42                     15.715m  X3.41                      4.083m
+X3.44                   -217.200n  X3.45                    -10.860
+X3.46                    217.200n  X3.47                     10.860
+X3.48                 -1.257E-019  X3.49                     -6.053f
+X3.XCLAWN.VC-            417.981u  X3.XCL_AMP.VO+        -4.612E-021
+X3.XCL_AMP.VO-        -4.612E-021  X3.XGR_AMP.VIN           518.305u
+X3.XGR_AMP.VO+        -4.612E-021  X3.XGR_AMP.VO-        -4.612E-021
+X3.VSENSE                518.305u  X3.XGR_SRC.VC+        -4.612E-021
+X3.XGR_SRC.VC-        -4.612E-021  X3.XCL_SRC.VC+        -4.612E-021
+X3.XCL_SRC.VC-        -4.612E-021  X3.XCL_SRC.IOUT+         518.305u
+X3.XCLAWP.IOUT+            5.990   X3.XCLAWN.IOUT-           -5.990
+X3.67                      5.990   X3.68                     -5.990
+X3.XCLAW_AMP.VC+           5.990   X3.XCLAW_AMP.VC-          -5.990
+X3.XCLAW_AMP.VIN         125.394u  X3.XCLAW_AMP.VO+      -4.612E-021
+X3.XCLAW_AMP.VO-      -4.612E-021  X3.XCLAW_SRC.VC+      -4.612E-021
+X3.XCLAW_SRC.VC-      -4.612E-021  X3.XCLAW_SRC.IOUT+       518.305u
+X3.SW_OL              -4.612E-021  X3.XOL_SENSE.SW+      -4.612E-021
+X3.74                    417.981u  X3.75                    125.394u
+X3.76                    518.305u  X3.XVCM_CLAMP.IOUT-      125.394u
+X3.XVCM_CLAMP.VIN+       125.394u  X3.82                     -6.000
+X3.81                 -4.612E-021  X3.83                      6.000
+X3.84                    124.960u  X3.85                    124.960u
+X4.25                    124.960u  X4.XE_N.2               -100.000f
+X4.XIN11.1               125.394u  X4.XVCM_CLAMP.IOUT+   -8.578E-029
+X4.XGR_AMP.VC+           110.000   X4.XGR_AMP.VC-          -110.000
+X4.XCL_AMP.VC+            80.000   X4.XCL_AMP.VC-           -80.000
+X4.34                    -12.000   X4.VCLP                  141.017u
+X4.55                    -12.000   X4.33                    -12.000
+X4.32                     12.000   X4.54                     12.000
+X4.31                     12.000   X4.43                    125.395u
+X4.XVCM_CLAMP.VP-         -6.200   X4.XCLAWN.IOUT+           -6.000
+X4.XVCM_CLAMP.VP+          6.200   X4.XCLAWP.IOUT-            6.000
+X4.22                      1.380m  X4.23                      1.380m
+X4.24                      1.380m  X4.21                      1.380m
+X4.XE_N.1               -100.000f  X4.XOL_SENSE.OLP         -12.002p
+X4.28                    -12.002p  X4.XOL_SENSE.OLN         -12.000p
+X4.30                    -12.000p  X4.XVCCS_LIM_ZO.IOUT-      1.379m
+X4.XVCCS_LIM_ZO.VC+      344.841n  X4.37                    141.017u
+X4.XGR_SRC.IOUT+         141.017u  X4.XVCCS_LIM_1.IOUT-       1.644n
+X4.XVCCS_LIM_1.VC+       125.394u  X4.XVCCS_LIM_1.VC-       125.394u
+X4.42                    624.827u  X4.41                    162.335u
+X4.44                   -217.200n  X4.45                    -10.860
+X4.46                    217.200n  X4.47                     10.860
+X4.48                 -1.211E-019  X4.49                     -6.053f
+X4.XCLAWN.VC-              7.773p  X4.XCL_AMP.VO+        -8.629E-029
+X4.XCL_AMP.VO-        -8.629E-029  X4.XGR_AMP.VIN           141.017u
+X4.XGR_AMP.VO+        -8.581E-029  X4.XGR_AMP.VO-        -8.581E-029
+X4.VSENSE                141.017u  X4.XGR_SRC.VC+        -8.581E-029
+X4.XGR_SRC.VC-        -8.581E-029  X4.XCL_SRC.VC+        -8.629E-029
+X4.XCL_SRC.VC-        -8.629E-029  X4.XCL_SRC.IOUT+         141.017u
+X4.XCLAWP.IOUT+            5.990   X4.XCLAWN.IOUT-           -5.990
+X4.67                      5.990   X4.68                     -5.990
+X4.XCLAW_AMP.VC+           5.990   X4.XCLAW_AMP.VC-          -5.990
+X4.XCLAW_AMP.VIN         125.395u  X4.XCLAW_AMP.VO+      -8.576E-029
+X4.XCLAW_AMP.VO-      -8.576E-029  X4.XCLAW_SRC.VC+      -8.576E-029
+X4.XCLAW_SRC.VC-      -8.576E-029  X4.XCLAW_SRC.IOUT+       141.017u
+X4.SW_OL              -8.578E-029  X4.XOL_SENSE.SW+      -8.578E-029
+X4.74                      7.773p  X4.75                    125.395u
+X4.76                    141.017u  X4.XVCM_CLAMP.IOUT-      125.394u
+X4.XVCM_CLAMP.VIN+       125.394u  X4.82                     -6.000
+X4.81                 -8.578E-029  X4.83                      6.000
+X4.84                    124.960u  X4.85                    124.960u
+X3.XIN11.7               833.763m  X3.XIN11.8               833.763m
+X3.XIN11.3                 0.000   X3.XIN11.6                 0.000
+X3.XIN11.4                 0.000   X3.XIN11.5                 0.000
+X3.XI_N.7                833.763m  X3.XI_N.8                833.763m
+X3.XI_N.3                  0.000   X3.XI_N.6                  0.000
+X3.XI_N.4                  0.000   X3.XI_N.5                  0.000
+X3.XE_N.7                833.763m  X3.XE_N.8                833.763m
+X3.XE_N.3                  0.000   X3.XE_N.6                  0.000
+X3.XE_N.4                  0.000   X3.XE_N.5                  0.000
+X3.XCLAWP.G1_NFV         417.981u  X3.XCLAWN.G1_NFV         417.981u
+X4.XIN11.7               833.763m  X4.XIN11.8               833.763m
+X4.XIN11.3                 0.000   X4.XIN11.6                 0.000
+X4.XIN11.4                 0.000   X4.XIN11.5                 0.000
+X4.XI_N.7                833.763m  X4.XI_N.8                833.763m
+X4.XI_N.3                  0.000   X4.XI_N.6                  0.000
+X4.XI_N.4                  0.000   X4.XI_N.5                  0.000
+X4.XE_N.7                833.763m  X4.XE_N.8                833.763m
+X4.XE_N.3                  0.000   X4.XE_N.6                  0.000
+X4.XE_N.4                  0.000   X4.XE_N.5                  0.000
+X4.XCLAWP.G1_NFV           7.773p  X4.XCLAWN.G1_NFV           7.773p
 
 
 Operating Point for Devices of Type Diode
@@ -529,12 +529,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X3.R25                X3.R24                X3.R27
 Using model:         X3.R_NOISELESS        X3.R_NOISELESS        X3.R_NOISELESS
-V                        1.728E-032           -1.159E-031            1.956E-035
+V                       -8.125E-032           -1.159E-031            9.855E-035
 Power DC Terms:
-PD                       2.985E-064            1.343E-062            3.826E-067
+PD                       6.602E-063            1.343E-062            9.713E-066
 
 DC Pin Currents:
-Ir                       1.728E-032           -1.159E-031            1.956E-032
+Ir                      -8.125E-032           -1.159E-031            9.855E-032
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000
@@ -1343,7 +1343,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X3.C11                X3.C10                X3.C12
-V                        1.726E-032           -1.159E-031            1.505E-036
+V                       -8.135E-032           -1.159E-031            1.505E-036
 Power DC Terms:
 PS                           0.000                 0.000                 0.000
 
@@ -1625,7 +1625,7 @@ ISource                     0.000                 0.000                 0.000
 
 
 Instance:       X3.XCLAWN.E_$$G1$$     X3.XCLAW_AMP.GVO+     X3.XCLAW_AMP.GVO-
-V                         417.981u           -1.728E-032           -1.159E-031
+V                         417.981u            8.125E-032           -1.159E-031
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
@@ -1636,10 +1636,10 @@ ISource                     0.000                 0.000                 0.000
 Instance:          X3.XCLAW_SRC.G1     X3.XOL_SENSE.GSW+      X3.XVCM_CLAMP.G1
 V                         518.305u           -1.505E-036             -125.394u
 Power DC Terms:
-PG                      5.111E-035                0.000                15.724n
+PG                      1.022E-034                0.000                15.724n
 
 DC Pin Currents:
-ISource                -9.861E-032                0.000               125.394u
+ISource                -1.972E-031                0.000               125.394u
 
 
 Instance:       X4.XVCCS_LIM_ZO.G1     X4.XVCCS_LIM_2.G1     X4.XVCCS_LIM_1.G1
@@ -1828,10 +1828,10 @@ ISource                     0.000              -141.017n             -141.017n
 Instance:                   X4.G15                 X4.E1                X4.G17
 V                         141.017u           -8.578E-029               -6.000
 Power DC Terms:
-PG                         19.886p            8.573E-040               36.000
+PG                         19.886p            8.575E-040               36.000
 
 DC Pin Currents:
-ISource                  -141.017n                9.995p                6.000
+ISource                  -141.017n                9.997p                6.000
 
 
 Instance:                   X4.G16              X4.G_PSR              X4.G_CMR
@@ -1909,106 +1909,115 @@ DC Pin Currents:
 ISource                     0.000                -1.120m                1.120m
 
 
-Instance:              PROBE1.Vinj            PROBE1.Vol           PROBE1.Iinj
+Instance:               PROBE1.Vol           PROBE2.Vinj            PROBE2.Vol
 V                           0.000                 0.000                 0.000
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
 DC Pin Currents:
-ISource                     0.000                 0.000                 0.000
+ISource                     0.000                -7.522f                7.522f
 
 
-Instance:                   X3.VS1               X3.I_OS                X3.I_B
-V                         124.960u              125.394u             -100.000f
+Instance:              PROBE2.Iinj                X3.VS1               X3.I_OS
+V                        -125.395u              124.960u              125.394u
 Power DC Terms:
-PG                     -6.224E-022                0.000             1.000E-024
+PG                          0.000            -6.224E-022                0.000
 
 DC Pin Currents:
-ISource                     0.005f                0.000                10.000p
+ISource                     0.000                 0.005f                0.000
 
 
-Instance:                 X3.V_GRP              X3.V_GRN             X3.V_ISCP
-V                         110.000              -110.000                80.000
+Instance:                   X3.I_B              X3.V_GRP              X3.V_GRN
+V                        -100.000f              110.000              -110.000
 Power DC Terms:
-PG                         12.100n               12.100n                6.400n
+PG                      1.000E-024               12.100n               12.100n
 
 DC Pin Currents:
-ISource                  -110.000p              110.000p              -80.000p
+ISource                    10.000p             -110.000p              110.000p
 
 
-Instance:                X3.V_ISCN              X3.V_ORN                X3.V11
-V                         -80.000               -12.000                 0.000
+Instance:                X3.V_ISCP             X3.V_ISCN              X3.V_ORN
+V                          80.000               -80.000               -12.000
 Power DC Terms:
-PG                          6.400n                0.000                 0.000
+PG                          6.400n                6.400n                0.000
 
 DC Pin Currents:
-ISource                    80.000p                0.000                12.000p
+ISource                   -80.000p               80.000p                0.000
 
 
-Instance:                 X3.V_ORP                X3.V12                 X3.V4
-V                          12.000                 0.000                 0.000
-Power DC Terms:
-PG                          0.000                 0.000                 0.000
-
-DC Pin Currents:
-ISource                     0.000               -12.002p              417.981n
-
-
-Instance:               X3.VCM_MIN            X3.VCM_MAX                X3.I_Q
-V                        -200.000m              200.000m               12.000
-Power DC Terms:
-PG                          1.240p                1.240p               -6.720m
-
-DC Pin Currents:
-ISource                     6.202p               -6.202p              560.000u
-
-
-Instance:                   X4.VS1               X4.I_OS                X4.I_B
-V                         124.960u              125.394u             -100.000f
-Power DC Terms:
-PG                     -6.224E-022                0.000             1.000E-024
-
-DC Pin Currents:
-ISource                     0.005f                0.000                10.000p
-
-
-Instance:                 X4.V_GRP              X4.V_GRN             X4.V_ISCP
-V                         110.000              -110.000                80.000
-Power DC Terms:
-PG                         12.100n               12.100n                6.400n
-
-DC Pin Currents:
-ISource                  -110.000p              110.000p              -80.000p
-
-
-Instance:                X4.V_ISCN              X4.V_ORN                X4.V11
-V                         -80.000               -12.000                 0.000
-Power DC Terms:
-PG                          6.400n                0.000                 0.000
-
-DC Pin Currents:
-ISource                    80.000p                0.000                12.000p
-
-
-Instance:                 X4.V_ORP                X4.V12                 X4.V4
-V                          12.000                 0.000                 0.000
+Instance:                   X3.V11              X3.V_ORP                X3.V12
+V                           0.000                12.000                 0.000
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
 DC Pin Currents:
-ISource                     0.000               -12.002p                7.773f
+ISource                    12.000p                0.000               -12.002p
 
 
-Instance:               X4.VCM_MIN            X4.VCM_MAX                X4.I_Q
-V                        -200.000m              200.000m               12.000
+Instance:                    X3.V4            X3.VCM_MIN            X3.VCM_MAX
+V                           0.000              -200.000m              200.000m
 Power DC Terms:
-PG                          1.240p                1.240p               -6.720m
+PG                          0.000                 1.240p                1.240p
 
 DC Pin Currents:
-ISource                     6.202p               -6.202p              560.000u
+ISource                   417.981n                6.202p               -6.202p
 
 
-Instance:              X3.XIN11.I1           X3.XIN11.I2            X3.XI_N.I1
+Instance:                   X3.I_Q                X4.VS1               X4.I_OS
+V                          12.000               124.960u              125.394u
+Power DC Terms:
+PG                         -6.720m           -6.224E-022                0.000
+
+DC Pin Currents:
+ISource                   560.000u                0.005f                0.000
+
+
+Instance:                   X4.I_B              X4.V_GRP              X4.V_GRN
+V                        -100.000f              110.000              -110.000
+Power DC Terms:
+PG                      1.000E-024               12.100n               12.100n
+
+DC Pin Currents:
+ISource                    10.000p             -110.000p              110.000p
+
+
+Instance:                X4.V_ISCP             X4.V_ISCN              X4.V_ORN
+V                          80.000               -80.000               -12.000
+Power DC Terms:
+PG                          6.400n                6.400n                0.000
+
+DC Pin Currents:
+ISource                   -80.000p               80.000p                0.000
+
+
+Instance:                   X4.V11              X4.V_ORP                X4.V12
+V                           0.000                12.000                 0.000
+Power DC Terms:
+PG                          0.000                 0.000                 0.000
+
+DC Pin Currents:
+ISource                    12.000p                0.000               -12.002p
+
+
+Instance:                    X4.V4            X4.VCM_MIN            X4.VCM_MAX
+V                           0.000              -200.000m              200.000m
+Power DC Terms:
+PG                          0.000                 1.240p                1.240p
+
+DC Pin Currents:
+ISource                     7.773f                6.202p               -6.202p
+
+
+Instance:                   X4.I_Q           X3.XIN11.I1           X3.XIN11.I2
+V                          12.000              -833.763m             -833.763m
+Power DC Terms:
+PG                         -6.720m                8.338m                8.338m
+
+DC Pin Currents:
+ISource                   560.000u               10.000m               10.000m
+
+
+Instance:               X3.XI_N.I1            X3.XI_N.I2            X3.XE_N.I1
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -2017,7 +2026,7 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:               X3.XI_N.I2            X3.XE_N.I1            X3.XE_N.I2
+Instance:               X3.XE_N.I2           X4.XIN11.I1           X4.XIN11.I2
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -2026,7 +2035,7 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:              X4.XIN11.I1           X4.XIN11.I2            X4.XI_N.I1
+Instance:               X4.XI_N.I1            X4.XI_N.I2            X4.XE_N.I1
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -2035,13 +2044,13 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:               X4.XI_N.I2            X4.XE_N.I1            X4.XE_N.I2
-V                        -833.763m             -833.763m             -833.763m
+Instance:               X4.XE_N.I2
+V                        -833.763m
 Power DC Terms:
-PG                          8.338m                8.338m                8.338m
+PG                          8.338m
 
 DC Pin Currents:
-ISource                    10.000m               10.000m               10.000m
+ISource                    10.000m
 
 
 
@@ -2067,8 +2076,8 @@ ISource                    10.000u
 
 Function Values
 ==================
-Phase_Margin(dB(LoopGain)) 322.891 
-Gain_Margin(dB(LoopGain))   38.773 
+Phase_Margin(dB(LoopGain)) 90.231 
+Gain_Margin(dB(LoopGain))  
 
 
 *****************************************************
@@ -2086,107 +2095,107 @@ Node                      Voltage  Node                      Voltage
 5                          0.000   VC                         6.000
 VE                        -6.000   8                          0.000
 9                        125.394u  10                       125.395u
-11                         0.000   X3.25                    124.960u
-X3.XE_N.2               -100.000f  X3.XIN11.1               125.394u
-X3.XVCM_CLAMP.IOUT+   -4.612E-021  X3.XGR_AMP.VC+           110.000
-X3.XGR_AMP.VC-          -110.000   X3.XCL_AMP.VC+            80.000
-X3.XCL_AMP.VC-           -80.000   X3.34                    -11.999
-X3.VCLP                  518.305u  X3.55                    -11.999
-X3.33                    -11.999   X3.32                     12.001
-X3.54                     12.001   X3.31                     12.001
-X3.43                    125.394u  X3.XVCM_CLAMP.VP-         -6.200
-X3.XCLAWN.IOUT+           -6.000   X3.XVCM_CLAMP.VP+          6.200
-X3.XCLAWP.IOUT-            6.000   X3.22                     34.702m
-X3.23                     34.705m  X3.24                     34.705m
-X3.21                     34.705m  X3.XE_N.1               -100.000f
-X3.XOL_SENSE.OLP         -12.002p  X3.28                    -12.002p
-X3.XOL_SENSE.OLN         -12.000p  X3.30                    -12.000p
-X3.XVCCS_LIM_ZO.IOUT-     34.692m  X3.XVCCS_LIM_ZO.VC+        8.673u
-X3.37                    518.305u  X3.XGR_SRC.IOUT+         518.305u
-X3.XVCCS_LIM_1.IOUT-       6.043n  X3.XVCCS_LIM_1.VC+       125.394u
-X3.XVCCS_LIM_1.VC-       125.394u  X3.42                     15.715m
-X3.41                      4.083m  X3.44                   -217.200n
-X3.45                    -10.860   X3.46                    217.200n
-X3.47                     10.860   X3.48                 -1.257E-019
-X3.49                     -6.053f  X3.XCLAWN.VC-            417.981u
-X3.XCL_AMP.VO+        -4.612E-021  X3.XCL_AMP.VO-        -4.612E-021
-X3.XGR_AMP.VIN           518.305u  X3.XGR_AMP.VO+        -4.612E-021
-X3.XGR_AMP.VO-        -4.612E-021  X3.VSENSE                518.305u
-X3.XGR_SRC.VC+        -4.612E-021  X3.XGR_SRC.VC-        -4.612E-021
-X3.XCL_SRC.VC+        -4.612E-021  X3.XCL_SRC.VC-        -4.612E-021
-X3.XCL_SRC.IOUT+         518.305u  X3.XCLAWP.IOUT+            5.990
-X3.XCLAWN.IOUT-           -5.990   X3.67                      5.990
-X3.68                     -5.990   X3.XCLAW_AMP.VC+           5.990
-X3.XCLAW_AMP.VC-          -5.990   X3.XCLAW_AMP.VIN         125.394u
-X3.XCLAW_AMP.VO+      -4.612E-021  X3.XCLAW_AMP.VO-      -4.612E-021
-X3.XCLAW_SRC.VC+      -4.612E-021  X3.XCLAW_SRC.VC-      -4.612E-021
-X3.XCLAW_SRC.IOUT+       518.305u  X3.SW_OL              -4.612E-021
-X3.XOL_SENSE.SW+      -4.612E-021  X3.74                    417.981u
-X3.75                    125.394u  X3.76                    518.305u
-X3.XVCM_CLAMP.IOUT-      125.394u  X3.XVCM_CLAMP.VIN+       125.394u
-X3.82                     -6.000   X3.81                 -4.612E-021
-X3.83                      6.000   X3.84                    124.960u
-X3.85                    124.960u  X4.25                    124.960u
-X4.XE_N.2               -100.000f  X4.XIN11.1               125.394u
-X4.XVCM_CLAMP.IOUT+   -8.578E-029  X4.XGR_AMP.VC+           110.000
-X4.XGR_AMP.VC-          -110.000   X4.XCL_AMP.VC+            80.000
-X4.XCL_AMP.VC-           -80.000   X4.34                    -12.000
-X4.VCLP                  141.017u  X4.55                    -12.000
-X4.33                    -12.000   X4.32                     12.000
-X4.54                     12.000   X4.31                     12.000
-X4.43                    125.395u  X4.XVCM_CLAMP.VP-         -6.200
-X4.XCLAWN.IOUT+           -6.000   X4.XVCM_CLAMP.VP+          6.200
-X4.XCLAWP.IOUT-            6.000   X4.22                      1.380m
-X4.23                      1.380m  X4.24                      1.380m
-X4.21                      1.380m  X4.XE_N.1               -100.000f
-X4.XOL_SENSE.OLP         -12.002p  X4.28                    -12.002p
-X4.XOL_SENSE.OLN         -12.000p  X4.30                    -12.000p
-X4.XVCCS_LIM_ZO.IOUT-      1.379m  X4.XVCCS_LIM_ZO.VC+      344.841n
-X4.37                    141.017u  X4.XGR_SRC.IOUT+         141.017u
-X4.XVCCS_LIM_1.IOUT-       1.644n  X4.XVCCS_LIM_1.VC+       125.394u
-X4.XVCCS_LIM_1.VC-       125.394u  X4.42                    624.827u
-X4.41                    162.335u  X4.44                   -217.200n
-X4.45                    -10.860   X4.46                    217.200n
-X4.47                     10.860   X4.48                 -1.211E-019
-X4.49                     -6.053f  X4.XCLAWN.VC-              7.773p
-X4.XCL_AMP.VO+        -8.629E-029  X4.XCL_AMP.VO-        -8.629E-029
-X4.XGR_AMP.VIN           141.017u  X4.XGR_AMP.VO+        -8.581E-029
-X4.XGR_AMP.VO-        -8.581E-029  X4.VSENSE                141.017u
-X4.XGR_SRC.VC+        -8.581E-029  X4.XGR_SRC.VC-        -8.581E-029
-X4.XCL_SRC.VC+        -8.629E-029  X4.XCL_SRC.VC-        -8.629E-029
-X4.XCL_SRC.IOUT+         141.017u  X4.XCLAWP.IOUT+            5.990
-X4.XCLAWN.IOUT-           -5.990   X4.67                      5.990
-X4.68                     -5.990   X4.XCLAW_AMP.VC+           5.990
-X4.XCLAW_AMP.VC-          -5.990   X4.XCLAW_AMP.VIN         125.395u
-X4.XCLAW_AMP.VO+      -8.576E-029  X4.XCLAW_AMP.VO-      -8.576E-029
-X4.XCLAW_SRC.VC+      -8.576E-029  X4.XCLAW_SRC.VC-      -8.576E-029
-X4.XCLAW_SRC.IOUT+       141.017u  X4.SW_OL              -8.578E-029
-X4.XOL_SENSE.SW+      -8.578E-029  X4.74                      7.773p
-X4.75                    125.395u  X4.76                    141.017u
-X4.XVCM_CLAMP.IOUT-      125.394u  X4.XVCM_CLAMP.VIN+       125.394u
-X4.82                     -6.000   X4.81                 -8.578E-029
-X4.83                      6.000   X4.84                    124.960u
-X4.85                    124.960u  X3.XIN11.7               833.763m
-X3.XIN11.8               833.763m  X3.XIN11.3                 0.000
-X3.XIN11.6                 0.000   X3.XIN11.4                 0.000
-X3.XIN11.5                 0.000   X3.XI_N.7                833.763m
-X3.XI_N.8                833.763m  X3.XI_N.3                  0.000
-X3.XI_N.6                  0.000   X3.XI_N.4                  0.000
-X3.XI_N.5                  0.000   X3.XE_N.7                833.763m
-X3.XE_N.8                833.763m  X3.XE_N.3                  0.000
-X3.XE_N.6                  0.000   X3.XE_N.4                  0.000
-X3.XE_N.5                  0.000   X3.XCLAWP.G1_NFV         417.981u
-X3.XCLAWN.G1_NFV         417.981u  X4.XIN11.7               833.763m
-X4.XIN11.8               833.763m  X4.XIN11.3                 0.000
-X4.XIN11.6                 0.000   X4.XIN11.4                 0.000
-X4.XIN11.5                 0.000   X4.XI_N.7                833.763m
-X4.XI_N.8                833.763m  X4.XI_N.3                  0.000
-X4.XI_N.6                  0.000   X4.XI_N.4                  0.000
-X4.XI_N.5                  0.000   X4.XE_N.7                833.763m
-X4.XE_N.8                833.763m  X4.XE_N.3                  0.000
-X4.XE_N.6                  0.000   X4.XE_N.4                  0.000
-X4.XE_N.5                  0.000   X4.XCLAWP.G1_NFV           7.773p
-X4.XCLAWN.G1_NFV           7.773p
+11                         0.000   12                       125.395u
+X3.25                    124.960u  X3.XE_N.2               -100.000f
+X3.XIN11.1               125.394u  X3.XVCM_CLAMP.IOUT+   -4.612E-021
+X3.XGR_AMP.VC+           110.000   X3.XGR_AMP.VC-          -110.000
+X3.XCL_AMP.VC+            80.000   X3.XCL_AMP.VC-           -80.000
+X3.34                    -11.999   X3.VCLP                  518.305u
+X3.55                    -11.999   X3.33                    -11.999
+X3.32                     12.001   X3.54                     12.001
+X3.31                     12.001   X3.43                    125.394u
+X3.XVCM_CLAMP.VP-         -6.200   X3.XCLAWN.IOUT+           -6.000
+X3.XVCM_CLAMP.VP+          6.200   X3.XCLAWP.IOUT-            6.000
+X3.22                     34.702m  X3.23                     34.705m
+X3.24                     34.705m  X3.21                     34.705m
+X3.XE_N.1               -100.000f  X3.XOL_SENSE.OLP         -12.002p
+X3.28                    -12.002p  X3.XOL_SENSE.OLN         -12.000p
+X3.30                    -12.000p  X3.XVCCS_LIM_ZO.IOUT-     34.692m
+X3.XVCCS_LIM_ZO.VC+        8.673u  X3.37                    518.305u
+X3.XGR_SRC.IOUT+         518.305u  X3.XVCCS_LIM_1.IOUT-       6.043n
+X3.XVCCS_LIM_1.VC+       125.394u  X3.XVCCS_LIM_1.VC-       125.394u
+X3.42                     15.715m  X3.41                      4.083m
+X3.44                   -217.200n  X3.45                    -10.860
+X3.46                    217.200n  X3.47                     10.860
+X3.48                 -1.257E-019  X3.49                     -6.053f
+X3.XCLAWN.VC-            417.981u  X3.XCL_AMP.VO+        -4.612E-021
+X3.XCL_AMP.VO-        -4.612E-021  X3.XGR_AMP.VIN           518.305u
+X3.XGR_AMP.VO+        -4.612E-021  X3.XGR_AMP.VO-        -4.612E-021
+X3.VSENSE                518.305u  X3.XGR_SRC.VC+        -4.612E-021
+X3.XGR_SRC.VC-        -4.612E-021  X3.XCL_SRC.VC+        -4.612E-021
+X3.XCL_SRC.VC-        -4.612E-021  X3.XCL_SRC.IOUT+         518.305u
+X3.XCLAWP.IOUT+            5.990   X3.XCLAWN.IOUT-           -5.990
+X3.67                      5.990   X3.68                     -5.990
+X3.XCLAW_AMP.VC+           5.990   X3.XCLAW_AMP.VC-          -5.990
+X3.XCLAW_AMP.VIN         125.394u  X3.XCLAW_AMP.VO+      -4.612E-021
+X3.XCLAW_AMP.VO-      -4.612E-021  X3.XCLAW_SRC.VC+      -4.612E-021
+X3.XCLAW_SRC.VC-      -4.612E-021  X3.XCLAW_SRC.IOUT+       518.305u
+X3.SW_OL              -4.612E-021  X3.XOL_SENSE.SW+      -4.612E-021
+X3.74                    417.981u  X3.75                    125.394u
+X3.76                    518.305u  X3.XVCM_CLAMP.IOUT-      125.394u
+X3.XVCM_CLAMP.VIN+       125.394u  X3.82                     -6.000
+X3.81                 -4.612E-021  X3.83                      6.000
+X3.84                    124.960u  X3.85                    124.960u
+X4.25                    124.960u  X4.XE_N.2               -100.000f
+X4.XIN11.1               125.394u  X4.XVCM_CLAMP.IOUT+   -8.578E-029
+X4.XGR_AMP.VC+           110.000   X4.XGR_AMP.VC-          -110.000
+X4.XCL_AMP.VC+            80.000   X4.XCL_AMP.VC-           -80.000
+X4.34                    -12.000   X4.VCLP                  141.017u
+X4.55                    -12.000   X4.33                    -12.000
+X4.32                     12.000   X4.54                     12.000
+X4.31                     12.000   X4.43                    125.395u
+X4.XVCM_CLAMP.VP-         -6.200   X4.XCLAWN.IOUT+           -6.000
+X4.XVCM_CLAMP.VP+          6.200   X4.XCLAWP.IOUT-            6.000
+X4.22                      1.380m  X4.23                      1.380m
+X4.24                      1.380m  X4.21                      1.380m
+X4.XE_N.1               -100.000f  X4.XOL_SENSE.OLP         -12.002p
+X4.28                    -12.002p  X4.XOL_SENSE.OLN         -12.000p
+X4.30                    -12.000p  X4.XVCCS_LIM_ZO.IOUT-      1.379m
+X4.XVCCS_LIM_ZO.VC+      344.841n  X4.37                    141.017u
+X4.XGR_SRC.IOUT+         141.017u  X4.XVCCS_LIM_1.IOUT-       1.644n
+X4.XVCCS_LIM_1.VC+       125.394u  X4.XVCCS_LIM_1.VC-       125.394u
+X4.42                    624.827u  X4.41                    162.335u
+X4.44                   -217.200n  X4.45                    -10.860
+X4.46                    217.200n  X4.47                     10.860
+X4.48                 -1.211E-019  X4.49                     -6.053f
+X4.XCLAWN.VC-              7.773p  X4.XCL_AMP.VO+        -8.629E-029
+X4.XCL_AMP.VO-        -8.629E-029  X4.XGR_AMP.VIN           141.017u
+X4.XGR_AMP.VO+        -8.581E-029  X4.XGR_AMP.VO-        -8.581E-029
+X4.VSENSE                141.017u  X4.XGR_SRC.VC+        -8.581E-029
+X4.XGR_SRC.VC-        -8.581E-029  X4.XCL_SRC.VC+        -8.629E-029
+X4.XCL_SRC.VC-        -8.629E-029  X4.XCL_SRC.IOUT+         141.017u
+X4.XCLAWP.IOUT+            5.990   X4.XCLAWN.IOUT-           -5.990
+X4.67                      5.990   X4.68                     -5.990
+X4.XCLAW_AMP.VC+           5.990   X4.XCLAW_AMP.VC-          -5.990
+X4.XCLAW_AMP.VIN         125.395u  X4.XCLAW_AMP.VO+      -8.576E-029
+X4.XCLAW_AMP.VO-      -8.576E-029  X4.XCLAW_SRC.VC+      -8.576E-029
+X4.XCLAW_SRC.VC-      -8.576E-029  X4.XCLAW_SRC.IOUT+       141.017u
+X4.SW_OL              -8.578E-029  X4.XOL_SENSE.SW+      -8.578E-029
+X4.74                      7.773p  X4.75                    125.395u
+X4.76                    141.017u  X4.XVCM_CLAMP.IOUT-      125.394u
+X4.XVCM_CLAMP.VIN+       125.394u  X4.82                     -6.000
+X4.81                 -8.578E-029  X4.83                      6.000
+X4.84                    124.960u  X4.85                    124.960u
+X3.XIN11.7               833.763m  X3.XIN11.8               833.763m
+X3.XIN11.3                 0.000   X3.XIN11.6                 0.000
+X3.XIN11.4                 0.000   X3.XIN11.5                 0.000
+X3.XI_N.7                833.763m  X3.XI_N.8                833.763m
+X3.XI_N.3                  0.000   X3.XI_N.6                  0.000
+X3.XI_N.4                  0.000   X3.XI_N.5                  0.000
+X3.XE_N.7                833.763m  X3.XE_N.8                833.763m
+X3.XE_N.3                  0.000   X3.XE_N.6                  0.000
+X3.XE_N.4                  0.000   X3.XE_N.5                  0.000
+X3.XCLAWP.G1_NFV         417.981u  X3.XCLAWN.G1_NFV         417.981u
+X4.XIN11.7               833.763m  X4.XIN11.8               833.763m
+X4.XIN11.3                 0.000   X4.XIN11.6                 0.000
+X4.XIN11.4                 0.000   X4.XIN11.5                 0.000
+X4.XI_N.7                833.763m  X4.XI_N.8                833.763m
+X4.XI_N.3                  0.000   X4.XI_N.6                  0.000
+X4.XI_N.4                  0.000   X4.XI_N.5                  0.000
+X4.XE_N.7                833.763m  X4.XE_N.8                833.763m
+X4.XE_N.3                  0.000   X4.XE_N.6                  0.000
+X4.XE_N.4                  0.000   X4.XE_N.5                  0.000
+X4.XCLAWP.G1_NFV           7.773p  X4.XCLAWN.G1_NFV           7.773p
 
 
 Operating Point for Devices of Type Diode
@@ -2580,12 +2589,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X3.R25                X3.R24                X3.R27
 Using model:         X3.R_NOISELESS        X3.R_NOISELESS        X3.R_NOISELESS
-V                        1.728E-032           -1.159E-031            1.956E-035
+V                       -8.125E-032           -1.159E-031            9.855E-035
 Power DC Terms:
-PD                       2.985E-064            1.343E-062            3.826E-067
+PD                       6.602E-063            1.343E-062            9.713E-066
 
 DC Pin Currents:
-Ir                       1.728E-032           -1.159E-031            1.956E-032
+Ir                      -8.125E-032           -1.159E-031            9.855E-032
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000
@@ -3394,7 +3403,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X3.C11                X3.C10                X3.C12
-V                        1.726E-032           -1.159E-031            1.505E-036
+V                       -8.135E-032           -1.159E-031            1.505E-036
 Power DC Terms:
 PS                           0.000                 0.000                 0.000
 
@@ -3676,7 +3685,7 @@ ISource                     0.000                 0.000                 0.000
 
 
 Instance:       X3.XCLAWN.E_$$G1$$     X3.XCLAW_AMP.GVO+     X3.XCLAW_AMP.GVO-
-V                         417.981u           -1.728E-032           -1.159E-031
+V                         417.981u            8.125E-032           -1.159E-031
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
@@ -3687,10 +3696,10 @@ ISource                     0.000                 0.000                 0.000
 Instance:          X3.XCLAW_SRC.G1     X3.XOL_SENSE.GSW+      X3.XVCM_CLAMP.G1
 V                         518.305u           -1.505E-036             -125.394u
 Power DC Terms:
-PG                      5.111E-035                0.000                15.724n
+PG                      1.022E-034                0.000                15.724n
 
 DC Pin Currents:
-ISource                -9.861E-032                0.000               125.394u
+ISource                -1.972E-031                0.000               125.394u
 
 
 Instance:       X4.XVCCS_LIM_ZO.G1     X4.XVCCS_LIM_2.G1     X4.XVCCS_LIM_1.G1
@@ -3879,10 +3888,10 @@ ISource                     0.000              -141.017n             -141.017n
 Instance:                   X4.G15                 X4.E1                X4.G17
 V                         141.017u           -8.578E-029               -6.000
 Power DC Terms:
-PG                         19.886p            8.573E-040               36.000
+PG                         19.886p            8.575E-040               36.000
 
 DC Pin Currents:
-ISource                  -141.017n                9.995p                6.000
+ISource                  -141.017n                9.997p                6.000
 
 
 Instance:                   X4.G16              X4.G_PSR              X4.G_CMR
@@ -3960,106 +3969,115 @@ DC Pin Currents:
 ISource                     0.000                -1.120m                1.120m
 
 
-Instance:              PROBE1.Vinj            PROBE1.Vol           PROBE1.Iinj
+Instance:               PROBE1.Vol           PROBE2.Vinj            PROBE2.Vol
 V                           0.000                 0.000                 0.000
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
 DC Pin Currents:
-ISource                     0.000                 0.000                 0.000
+ISource                     0.000                -7.522f                7.522f
 
 
-Instance:                   X3.VS1               X3.I_OS                X3.I_B
-V                         124.960u              125.394u             -100.000f
+Instance:              PROBE2.Iinj                X3.VS1               X3.I_OS
+V                        -125.395u              124.960u              125.394u
 Power DC Terms:
-PG                     -6.224E-022                0.000             1.000E-024
+PG                          0.000            -6.224E-022                0.000
 
 DC Pin Currents:
-ISource                     0.005f                0.000                10.000p
+ISource                     0.000                 0.005f                0.000
 
 
-Instance:                 X3.V_GRP              X3.V_GRN             X3.V_ISCP
-V                         110.000              -110.000                80.000
+Instance:                   X3.I_B              X3.V_GRP              X3.V_GRN
+V                        -100.000f              110.000              -110.000
 Power DC Terms:
-PG                         12.100n               12.100n                6.400n
+PG                      1.000E-024               12.100n               12.100n
 
 DC Pin Currents:
-ISource                  -110.000p              110.000p              -80.000p
+ISource                    10.000p             -110.000p              110.000p
 
 
-Instance:                X3.V_ISCN              X3.V_ORN                X3.V11
-V                         -80.000               -12.000                 0.000
+Instance:                X3.V_ISCP             X3.V_ISCN              X3.V_ORN
+V                          80.000               -80.000               -12.000
 Power DC Terms:
-PG                          6.400n                0.000                 0.000
+PG                          6.400n                6.400n                0.000
 
 DC Pin Currents:
-ISource                    80.000p                0.000                12.000p
+ISource                   -80.000p               80.000p                0.000
 
 
-Instance:                 X3.V_ORP                X3.V12                 X3.V4
-V                          12.000                 0.000                 0.000
-Power DC Terms:
-PG                          0.000                 0.000                 0.000
-
-DC Pin Currents:
-ISource                     0.000               -12.002p              417.981n
-
-
-Instance:               X3.VCM_MIN            X3.VCM_MAX                X3.I_Q
-V                        -200.000m              200.000m               12.000
-Power DC Terms:
-PG                          1.240p                1.240p               -6.720m
-
-DC Pin Currents:
-ISource                     6.202p               -6.202p              560.000u
-
-
-Instance:                   X4.VS1               X4.I_OS                X4.I_B
-V                         124.960u              125.394u             -100.000f
-Power DC Terms:
-PG                     -6.224E-022                0.000             1.000E-024
-
-DC Pin Currents:
-ISource                     0.005f                0.000                10.000p
-
-
-Instance:                 X4.V_GRP              X4.V_GRN             X4.V_ISCP
-V                         110.000              -110.000                80.000
-Power DC Terms:
-PG                         12.100n               12.100n                6.400n
-
-DC Pin Currents:
-ISource                  -110.000p              110.000p              -80.000p
-
-
-Instance:                X4.V_ISCN              X4.V_ORN                X4.V11
-V                         -80.000               -12.000                 0.000
-Power DC Terms:
-PG                          6.400n                0.000                 0.000
-
-DC Pin Currents:
-ISource                    80.000p                0.000                12.000p
-
-
-Instance:                 X4.V_ORP                X4.V12                 X4.V4
-V                          12.000                 0.000                 0.000
+Instance:                   X3.V11              X3.V_ORP                X3.V12
+V                           0.000                12.000                 0.000
 Power DC Terms:
 PG                          0.000                 0.000                 0.000
 
 DC Pin Currents:
-ISource                     0.000               -12.002p                7.773f
+ISource                    12.000p                0.000               -12.002p
 
 
-Instance:               X4.VCM_MIN            X4.VCM_MAX                X4.I_Q
-V                        -200.000m              200.000m               12.000
+Instance:                    X3.V4            X3.VCM_MIN            X3.VCM_MAX
+V                           0.000              -200.000m              200.000m
 Power DC Terms:
-PG                          1.240p                1.240p               -6.720m
+PG                          0.000                 1.240p                1.240p
 
 DC Pin Currents:
-ISource                     6.202p               -6.202p              560.000u
+ISource                   417.981n                6.202p               -6.202p
 
 
-Instance:              X3.XIN11.I1           X3.XIN11.I2            X3.XI_N.I1
+Instance:                   X3.I_Q                X4.VS1               X4.I_OS
+V                          12.000               124.960u              125.394u
+Power DC Terms:
+PG                         -6.720m           -6.224E-022                0.000
+
+DC Pin Currents:
+ISource                   560.000u                0.005f                0.000
+
+
+Instance:                   X4.I_B              X4.V_GRP              X4.V_GRN
+V                        -100.000f              110.000              -110.000
+Power DC Terms:
+PG                      1.000E-024               12.100n               12.100n
+
+DC Pin Currents:
+ISource                    10.000p             -110.000p              110.000p
+
+
+Instance:                X4.V_ISCP             X4.V_ISCN              X4.V_ORN
+V                          80.000               -80.000               -12.000
+Power DC Terms:
+PG                          6.400n                6.400n                0.000
+
+DC Pin Currents:
+ISource                   -80.000p               80.000p                0.000
+
+
+Instance:                   X4.V11              X4.V_ORP                X4.V12
+V                           0.000                12.000                 0.000
+Power DC Terms:
+PG                          0.000                 0.000                 0.000
+
+DC Pin Currents:
+ISource                    12.000p                0.000               -12.002p
+
+
+Instance:                    X4.V4            X4.VCM_MIN            X4.VCM_MAX
+V                           0.000              -200.000m              200.000m
+Power DC Terms:
+PG                          0.000                 1.240p                1.240p
+
+DC Pin Currents:
+ISource                     7.773f                6.202p               -6.202p
+
+
+Instance:                   X4.I_Q           X3.XIN11.I1           X3.XIN11.I2
+V                          12.000              -833.763m             -833.763m
+Power DC Terms:
+PG                         -6.720m                8.338m                8.338m
+
+DC Pin Currents:
+ISource                   560.000u               10.000m               10.000m
+
+
+Instance:               X3.XI_N.I1            X3.XI_N.I2            X3.XE_N.I1
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -4068,7 +4086,7 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:               X3.XI_N.I2            X3.XE_N.I1            X3.XE_N.I2
+Instance:               X3.XE_N.I2           X4.XIN11.I1           X4.XIN11.I2
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -4077,7 +4095,7 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:              X4.XIN11.I1           X4.XIN11.I2            X4.XI_N.I1
+Instance:               X4.XI_N.I1            X4.XI_N.I2            X4.XE_N.I1
 V                        -833.763m             -833.763m             -833.763m
 Power DC Terms:
 PG                          8.338m                8.338m                8.338m
@@ -4086,13 +4104,13 @@ DC Pin Currents:
 ISource                    10.000m               10.000m               10.000m
 
 
-Instance:               X4.XI_N.I2            X4.XE_N.I1            X4.XE_N.I2
-V                        -833.763m             -833.763m             -833.763m
+Instance:               X4.XE_N.I2
+V                        -833.763m
 Power DC Terms:
-PG                          8.338m                8.338m                8.338m
+PG                          8.338m
 
 DC Pin Currents:
-ISource                    10.000m               10.000m               10.000m
+ISource                    10.000m
 
 
 
@@ -4118,7 +4136,7 @@ ISource                    10.000u
 
 Function Values
 ==================
-Phase_Margin(dB(LoopGain)) 322.891 
-Gain_Margin(dB(LoopGain))   38.773 
+Phase_Margin(dB(LoopGain)) 90.231 
+Gain_Margin(dB(LoopGain))  
 
 
