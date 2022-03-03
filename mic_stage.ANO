@@ -3,7 +3,7 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                         AC Analysis of mic_stage                         ***
-***                           3/2/2022 9:39:53 PM                            ***
+***                           3/2/2022 9:57:33 PM                            ***
 ********************************************************************************
 Limits
 ======
@@ -88,7 +88,7 @@ X1.XI_N.4                  0.000   X1.XI_N.5                  0.000
 X1.XE_N.7                833.763m  X1.XE_N.8                833.763m 
 X1.XE_N.3                  0.000   X1.XE_N.6                  0.000  
 X1.XE_N.4                  0.000   X1.XE_N.5                  0.000  
-X1.XCLAWP.G1_NFV           1.697n  X1.XCLAWN.G1_NFV           1.697n 
+X1.XCLAWP.G1_NFV           1.795n  X1.XCLAWN.G1_NFV           1.795n 
 
 
 Operating Point for Devices of Type Diode
@@ -158,12 +158,12 @@ Operating Point for Devices of Type Resistor
 ============================================
 Instance:                        R1                    R2                    R4
 Using model:             CRCW0603_F            CRCW0603_F            CRCW0603_F
-V                           16.316n              -44.084n               -2.692n
+V                           17.265n              -46.509n               -2.866n
 Power DC Terms:
-PD                       1.331E-020            3.887E-020            2.196E-021
+PD                       1.490E-020            4.335E-020            2.474E-021
 
 DC Pin Currents:
-Ir                         815.822f             -881.670f             -815.822f
+Ir                         863.259f             -932.050f             -863.259f
 
 Device Variables:
 tc1                        200.000u              200.000u              200.000u
@@ -172,12 +172,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                        R5                    R7                    R8
 Using model:             CRCW0603_F            CRCW0603_F            CRCW0603_F
-V                          -14.685n                0.888f                0.000 
+V                          -15.366n                0.888f                0.000 
 Power DC Terms:
-PD                       1.198E-020            3.944E-034                0.000 
+PD                       1.326E-020            3.944E-034                0.000 
 
 DC Pin Currents:
-Ir                        -815.822f            4.441E-019                0.000 
+Ir                        -863.259f            4.441E-019                0.000 
 
 Device Variables:
 tc1                        200.000u              200.000u              200.000u
@@ -186,12 +186,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                       R10                   R11                   R12
 Using model:             CRCW0603_F            CRCW0603_F            CRCW0603_F
-V                            1.697n               -6.000                -6.000 
+V                            1.795n               -6.000                -6.000 
 Power DC Terms:
-PD                       2.881E-021                3.600m                3.600m
+PD                       3.223E-021                3.600m                3.600m
 
 DC Pin Currents:
-Ir                           1.697p             -600.000u             -600.000u
+Ir                           1.795p             -600.000u             -600.000u
 
 Device Variables:
 tc1                        200.000u              200.000u              200.000u
@@ -200,12 +200,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                       R13                   R90                   R91
 Using model:             CRCW0603_F            CRCW0603_F            CRCW0603_F
-V                            0.000                -1.697n                8.158n
+V                            0.000                -1.795n                8.633n
 Power DC Terms:
-PD                           0.000             2.881E-021            6.656E-021
+PD                           0.000             3.223E-021            7.452E-021
 
 DC Pin Currents:
-Ir                           0.000                -1.697p              815.822f
+Ir                           0.000                -1.795p              863.259f
 
 Device Variables:
 tc1                        200.000u              200.000u              200.000u
@@ -214,12 +214,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                       R92                   R93                   R94
 Using model:             CRCW0603_F            CRCW0603_F            CRCW0603_F
-V                          -79.350n               -8.158n              -73.424n
+V                          -84.723n               -8.633n              -78.470n
 Power DC Terms:
-PD                       6.996E-020            6.656E-021            5.990E-020
+PD                       7.897E-020            7.452E-021            6.774E-020
 
 DC Pin Currents:
-Ir                        -881.670f             -815.822f             -815.822f
+Ir                        -932.050f             -863.259f             -863.259f
 
 Device Variables:
 tc1                        200.000u              200.000u              200.000u
@@ -270,12 +270,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R73                X1.R69                X1.R68
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                            1.410m             -144.187u             -144.187u
+V                            1.410m             -144.178u             -144.178u
 Power DC Terms:
-PD                           1.989u               20.790f               20.790f
+PD                           1.988u               20.787f               20.787f
 
 DC Pin Currents:
-Ir                           1.410m             -144.187p             -144.187p
+Ir                           1.410m             -144.178p             -144.178p
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -284,12 +284,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R44                X1.R72                X1.R71
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                           -1.681n              352.562n               -1.410m
+V                           -1.681n              352.538n               -1.410m
 Power DC Terms:
-PD                       2.826E-024               49.720f              198.880p
+PD                       2.826E-024               49.713f              198.853p
 
 DC Pin Currents:
-Ir                          -1.681f              141.025n             -141.025n
+Ir                          -1.681f              141.015n             -141.015n
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -298,12 +298,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R70                X1.R51                X1.R50
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                            1.411m              165.970u             -472.848u
+V                            1.411m              165.958u             -472.816u
 Power DC Terms:
-PD                           1.990u                7.848p               22.359p
+PD                           1.990u                7.847p               22.356p
 
 DC Pin Currents:
-Ir                           1.411m               47.285n              -47.285n
+Ir                           1.411m               47.282n              -47.282n
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -312,12 +312,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                 X1.RDUMMY                 X1.RX                X1.RDC
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                         -128.215u               -1.282m              638.818u
+V                         -128.207u               -1.282m              638.775u
 Power DC Terms:
-PD                           2.063p               20.622p              408.089n
+PD                           2.062p               20.619p              408.033n
 
 DC Pin Currents:
-Ir                         -16.087n              -16.086n              638.818u
+Ir                         -16.086n              -16.084n              638.775u
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -494,7 +494,7 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R11                X1.R18                X1.R33
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                         -128.215u                0.000                 0.000 
+V                         -128.207u                0.000                 0.000 
 Power DC Terms:
 PD                       1.644E-020                0.000                 0.000 
 
@@ -508,12 +508,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R10                X1.R47                X1.R46
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                            1.697n                0.000              -144.187u
+V                            1.795n                0.000              -144.178u
 Power DC Terms:
-PD                       2.881E-030                0.000                20.790p
+PD                       3.222E-030                0.000                20.787p
 
 DC Pin Currents:
-Ir                       1.697E-021                0.000              -144.187n
+Ir                       1.795E-021                0.000              -144.178n
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -522,12 +522,12 @@ tc2                          0.000                 0.000                 0.000
 
 Instance:                    X1.R45                X1.R43                 X1.R9
 Using model:         X1.R_NOISELESS        X1.R_NOISELESS        X1.R_NOISELESS
-V                         -144.187u             -144.187u                0.000 
+V                         -144.178u             -144.178u                0.000 
 Power DC Terms:
-PD                          20.790p               20.790p                0.000 
+PD                          20.787p               20.787p                0.000 
 
 DC Pin Currents:
-Ir                        -144.187n             -144.187n                0.000 
+Ir                        -144.178n             -144.178n                0.000 
 
 Device Variables:
 tc1                          0.000                 0.000                 0.000 
@@ -713,7 +713,7 @@ tc2                          0.000                 0.000                 0.000
 Operating Point for Devices of Type Capacitor
 =============================================
 Instance:                        C1                    C2                    C3
-V                          -71.192n              -81.582n              -98.959n
+V                          -76.091n              -87.103n             -105.335n
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -725,7 +725,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                        C4                    C5                    C6
-V                           37.023n               26.172n               -6.000 
+V                           39.192n               27.693n               -6.000 
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -749,7 +749,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X1.C28                X1.C27                X1.C25
-V                          -12.001p              -12.000p              144.187u
+V                          -12.001p              -12.000p              144.178u
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -761,7 +761,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X1.C20                X1.C26                X1.C21
-V                          144.187u               -1.410m              472.848u
+V                          144.178u               -1.410m              472.816u
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -785,7 +785,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                 X1.C_DIFF                X1.C19                X1.C17
-V                         -125.394u              144.187u              345.501f
+V                         -125.394u              144.178u              345.501f
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -821,7 +821,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X1.C10                X1.C12                 X1.C7
-V                         -345.501f               -1.776f              128.215u
+V                         -345.501f               -1.776f              128.207u
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -833,7 +833,7 @@ ic                           0.000                 0.000                 0.000
 
 
 Instance:                    X1.C13                X1.C24                 X1.C4
-V                           -1.697n              144.187u              128.342u
+V                           -1.795n              144.178u              128.342u
 Power DC Terms:
 PS                           0.000                 0.000                 0.000 
 
@@ -911,21 +911,21 @@ State                           OFF                   OFF                   OFF
 Operating Point for Devices of Type Function Source
 ===================================================
 Instance:       X1.XVCCS_LIM_ZO.G1     X1.XVCCS_LIM_2.G1     X1.XVCCS_LIM_1.G1
-V                          -1.410m             -144.187u               -1.681n
+V                          -1.410m             -144.178u               -1.681n
 Power DC Terms:
-PG                          1.989u               20.790f           -3.731E-025
+PG                          1.989u               20.787f            8.588E-024
 
 DC Pin Currents:
-ISource                     1.410m              144.186p               -0.222f
+ISource                     1.410m              144.177p                5.109f
 
 
 Instance:             X1.XIQPOS.G1          X1.XIQNEG.G1       X1.XCL_AMP.GVO+
 V                           6.000                 6.000              -345.501f
 Power DC Terms:
-PG                          0.000               -10.183p                0.000 
+PG                          0.000               -10.770p                0.000 
 
 DC Pin Currents:
-ISource                     0.000                 1.697p                0.000 
+ISource                     0.000                 1.795p                0.000 
 
 
 Instance:          X1.XCL_AMP.GVO-       X1.XGR_AMP.GVO+       X1.XGR_AMP.GVO-
@@ -938,7 +938,7 @@ ISource                     0.000                 0.000                 0.000
 
 
 Instance:            X1.XGR_SRC.G1         X1.XCL_SRC.G1    X1.XCLAWP.E_$$G1$$
-V                         144.187u              144.187u                1.697n
+V                         144.178u              144.178u                1.795n
 Power DC Terms:
 PG                          0.000                 0.000                 0.000 
 
@@ -947,7 +947,7 @@ ISource                     0.000                 0.000                 0.000
 
 
 Instance:       X1.XCLAWN.E_$$G1$$     X1.XCLAW_AMP.GVO+     X1.XCLAW_AMP.GVO-
-V                           1.697n             -345.501f             -345.501f
+V                           1.795n             -345.501f             -345.501f
 Power DC Terms:
 PG                          0.000                 0.000                 0.000 
 
@@ -956,7 +956,7 @@ ISource                     0.000                 0.000                 0.000
 
 
 Instance:          X1.XCLAW_SRC.G1     X1.XOL_SENSE.GSW+      X1.XVCM_CLAMP.G1
-V                         144.187u                1.776f             -128.342u
+V                         144.178u                1.776f             -128.342u
 Power DC Terms:
 PG                          0.000                 0.000                16.472n
 
@@ -977,12 +977,12 @@ ISource                    -1.411m              -12.000                12.000
 
 
 Instance:                X1.GVCCS6             X1.GVCCS3           X1.G_AOL_ZO
-V                         144.187u                1.411m              638.818u
+V                         144.178u                1.411m              638.775u
 Power DC Terms:
-PG                         20.790f                1.990u              408.119n
+PG                         20.787f                1.990u              408.063n
 
 DC Pin Currents:
-ISource                  -144.187p               -1.411m             -638.866u
+ISource                  -144.178p               -1.411m             -638.822u
 
 
 Instance:                X1.GVCCS2             X1.GVCCS1           X1.G_ADJUST
@@ -1004,30 +1004,30 @@ ISource                    -5.990m                5.990m                0.000
 
 
 Instance:                    X1.H3                 X1.H1                 X1.E5
-V                         -12.001p               -1.697n              128.215u
+V                         -12.001p               -1.795n              128.207u
 Power DC Terms:
-PG                          0.000            -3.579E-027            1.717E-020
+PG                          0.000            -3.785E-027            1.628E-020
 
 DC Pin Currents:
-ISource                     0.000                -0.002f               -0.134f
+ISource                     0.000                -0.002f               -0.127f
 
 
 Instance:                    X1.E4                 X1.G9                 X1.G8
-V                         144.187u              144.187u              144.187u
+V                         144.178u              144.178u              144.178u
 Power DC Terms:
-PG                          0.000                20.790p               20.790p
+PG                          0.000                20.787p               20.787p
 
 DC Pin Currents:
-ISource                     0.000              -144.187n             -144.187n
+ISource                     0.000              -144.178n             -144.178n
 
 
 Instance:                   X1.G15                 X1.E1                X1.G17
-V                         144.187u                6.000                 6.000u
+V                         144.178u                6.000                 6.000u
 Power DC Terms:
-PG                         20.790p             -105.318p                0.000 
+PG                         20.787p             -105.409p                0.000 
 
 DC Pin Currents:
-ISource                  -144.187n               17.553p                0.000 
+ISource                  -144.178n               17.568p                0.000 
 
 
 Instance:                   X1.G16              X1.G_PSR              X1.G_CMR
@@ -1111,7 +1111,7 @@ Power DC Terms:
 PG                          0.000                 0.000                 1.240p
 
 DC Pin Currents:
-ISource                   -12.001p               -1.697p                6.200p
+ISource                   -12.001p               -1.795p                6.200p
 
 
 Instance:               X1.VCM_MAX                X1.I_Q           X1.XIN11.I1

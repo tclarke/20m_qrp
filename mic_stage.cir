@@ -187,12 +187,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=22nF lot=10%
+V=22n lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=22n
 
 [Comp]
 Name=Capacitor
@@ -205,12 +209,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=4.7nF lot=10%
+V=4.7n lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=4.7n
 
 [Comp]
 Name=Capacitor
@@ -223,12 +231,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=100pF lot=10%
+V=100p lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=100p
 
 [Comp]
 Name=Capacitor
@@ -241,12 +253,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=22nF lot=10%
+V=22n lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=22n
 
 [Comp]
 Name=Capacitor
@@ -259,12 +275,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=100pF lot=10%
+V=100p lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=100p
 
 [Comp]
 Name=Capacitor
@@ -278,12 +298,16 @@ Style=8192
 
 [Attr]
 ON=-26,28,CAPACITANCE
-V=33uF lot=10%
+V=33u lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=33u
 
 [Comp]
 Name=Capacitor
@@ -296,12 +320,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=1nF lot=10%
+V=1n lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=1n
 
 [Comp]
 Name=Resistor
@@ -314,7 +342,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=20k
+V=20K
 Style=8192
 
 [Attr]
@@ -324,6 +352,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=20K
 
 [Comp]
 Name=Resistor
@@ -336,7 +368,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=50k
+V=49.9K
 Style=8192
 
 [Attr]
@@ -346,6 +378,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=49.9K
 
 [Comp]
 Name=Resistor
@@ -358,7 +394,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=3.3k
+V=3.32K
 Style=8192
 
 [Attr]
@@ -368,6 +404,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=3.32K
 
 [Comp]
 Name=Resistor
@@ -380,7 +420,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=18k
+V=17.8K
 Style=8192
 
 [Attr]
@@ -390,6 +430,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=17.8K
 
 [Comp]
 Name=Resistor
@@ -402,7 +446,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=2k
+V=2K
 Style=8192
 
 [Attr]
@@ -412,6 +456,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=2K
 
 [Comp]
 Name=Resistor
@@ -424,7 +472,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=18k
+V=17.8K
 Style=8192
 
 [Attr]
@@ -434,6 +482,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=17.8K
 
 [Comp]
 Name=Resistor
@@ -446,7 +498,7 @@ Style=8192
 
 [Attr]
 ON=18,21,RESISTANCE
-V=1k
+V=1K
 Style=8192
 
 [Attr]
@@ -456,6 +508,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=1K
 
 [Comp]
 Name=Resistor
@@ -469,7 +525,7 @@ Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=10k
+V=10K
 Style=8192
 
 [Attr]
@@ -479,6 +535,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=10K
 
 [Comp]
 Name=Resistor
@@ -492,7 +552,7 @@ Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=10k
+V=10K
 Style=8192
 
 [Attr]
@@ -502,6 +562,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=10K
 
 [Comp]
 Name=Capacitor
@@ -514,12 +578,16 @@ Style=8192
 
 [Attr]
 ON=16,26,CAPACITANCE
-V=0.1uF lot=10%
+V=100n lot=10%
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Attr]
+ON=0,11,COMBINATION
+V=100n
 
 [Wire]
 Pxs=168,320,200,320
@@ -659,7 +727,7 @@ Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=470
+V=475
 Style=8192
 
 [Attr]
@@ -669,6 +737,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=475
 
 [Wire]
 Pxs=488,424,488,480
@@ -866,7 +938,7 @@ Style=8192
 
 [Attr]
 ON=8,24,RESISTANCE
-V=1k
+V=1K
 Style=8192
 
 [Attr]
@@ -876,6 +948,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=1K
 
 [Wire]
 Pxs=592,208,792,208
@@ -906,7 +982,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=10k
+V=10K
 Style=8192
 
 [Attr]
@@ -916,6 +992,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=10K
 
 [Comp]
 Name=Resistor
@@ -928,7 +1008,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=90k
+V=90.9K
 Style=8192
 
 [Attr]
@@ -938,6 +1018,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=90.9K
 
 [Wire]
 Pxs=296,168,304,168
@@ -956,7 +1040,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=10k
+V=10K
 Style=8192
 
 [Attr]
@@ -966,6 +1050,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=10K
 
 [Comp]
 Name=Resistor
@@ -978,7 +1066,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=90k
+V=90.9K
 Style=8192
 
 [Attr]
@@ -988,6 +1076,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=90.9K
 
 [Wire]
 Pxs=384,320,392,320
@@ -1003,7 +1095,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=47k
+V=47.5K
 Style=8192
 
 [Attr]
@@ -1013,6 +1105,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=47.5K
 
 [Comp]
 Name=Resistor
@@ -1025,7 +1121,7 @@ Style=8192
 
 [Attr]
 ON=18,20,RESISTANCE
-V=432k
+V=432K
 Style=8192
 
 [Attr]
@@ -1035,6 +1131,10 @@ V=CRCW0603_F
 [Attr]
 ON=0,0,PACKAGE
 V=0603
+
+[Attr]
+ON=0,11,COMBINATION
+V=432K
 
 [Wire]
 Pxs=288,480,296,480
@@ -1275,8 +1375,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
+SB 3=102,0
 Scale 3=0.84375
-Px=1021,386
+Px=328,205
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1340,6 +1441,7 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
+SB 0=43,1
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF
@@ -1370,6 +1472,8 @@ Page=1
 [Text Area]
 Section=0
 Page=2
+Text=*** From file C:\mc12cd\library\PASSIVE.LIB
+Text=.MODEL CRCW0603_F RES (R=1 LOT=1% TC1=200U)
 
 [InfoPage]
 InfoPage=True
@@ -1628,7 +1732,7 @@ Anchor Color=#000000
 Select Box Color=#000080
 Title=Gain_Margin(dB(v(Output)))
 AutoTitle=Yes
-ShowWin=True
+ShowWin=False
 BackGroundColor=#FFFFFF
 Grid Color=#808080
 Fore Color=#FFFFFF

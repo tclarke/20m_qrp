@@ -226,7 +226,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
@@ -320,6 +320,30 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "8ae9965b-f2e1-479c-936f-14a1ce0cc0b6",
+      "Microphone Preamp"
+    ],
+    [
+      "bcb8b3eb-145f-4370-b548-97d15835a840",
+      "Audio Amp"
+    ],
+    [
+      "50101131-8210-4bb3-b574-fea96f6c5769",
+      "Bandpass Filter"
+    ],
+    [
+      "4c9d1a34-6c3b-4178-adc4-3977ec419f23",
+      "IF Strip"
+    ],
+    [
+      "f2a37372-513d-40d9-8226-b942a76955fe",
+      "Oscillators"
+    ],
+    [
+      "d827e970-ed92-4e7e-b8bc-757403285c4e",
+      "Power"
     ]
   ],
   "text_variables": {}
